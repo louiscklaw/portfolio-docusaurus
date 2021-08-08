@@ -19,6 +19,9 @@ import { THEME_ACCENT_COLOR, THEME_WHITE } from "../styles/colors";
 
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 
+import PerfectScrollbar from "react-perfect-scrollbar";
+import "react-perfect-scrollbar/dist/css/styles.css";
+
 const test = 2 * (100 / 12);
 
 function Layout(props) {
@@ -29,34 +32,35 @@ function Layout(props) {
 
   return (
     <>
-      <LayoutProviders>
-        <LayoutHead {...props} />
-        <AnnouncementBar />
+      <PerfectScrollbar>
+        <LayoutProviders>
+          <LayoutHead {...props} />
+          <AnnouncementBar />
 
-        <Grid container style={{ height: "100vh" }}>
-          <Grid
-            item
-            xs={2}
-            style={{ height: "100vh", backgroundColor: THEME_ACCENT_COLOR }}
-          >
-            <div
-              style={{
-                position: "fixed",
-                height: "100vh",
-                width: test + "%",
-                backgroundColor: THEME_ACCENT_COLOR,
-              }}
+          <Grid container style={{ height: "100vh" }}>
+            <Grid
+              item
+              xs={2}
+              style={{ height: "100vh", backgroundColor: THEME_ACCENT_COLOR }}
             >
-              <LeftNavBar />
-            </div>
+              <div
+                style={{
+                  position: "fixed",
+                  height: "100vh",
+                  width: test + "%",
+                  backgroundColor: THEME_ACCENT_COLOR,
+                }}
+              >
+                <LeftNavBar />
+              </div>
+            </Grid>
+            <Grid item xs={10} style={{}}>
+              {children}
+            </Grid>
           </Grid>
-          <Grid item xs={10} style={{}}>
-            {children}
-          </Grid>
-        </Grid>
 
-        {/* <Navbar /> */}
-        {/* <div
+          {/* <Navbar /> */}
+          {/* <div
             className={clsx(
               ThemeClassNames.wrapper.main,
               wrapperClassName,
@@ -65,8 +69,9 @@ function Layout(props) {
           >
             children
           </div> */}
-        {/* {!noFooter && <Footer />} */}
-      </LayoutProviders>
+          {/* {!noFooter && <Footer />} */}
+        </LayoutProviders>
+      </PerfectScrollbar>
     </>
   );
 }

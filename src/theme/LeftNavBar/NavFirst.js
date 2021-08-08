@@ -29,7 +29,7 @@ export default function NavFirst() {
               </Typography>
             </Box>
 
-            <Box mt={"2rem"}>
+            <Box mt={2}>
               <Grid
                 container
                 spacing={0}

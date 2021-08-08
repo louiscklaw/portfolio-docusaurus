@@ -56,17 +56,31 @@
               "unversionedId": "allwinner_v3s_tryout",
               "id": "allwinner_v3s_tryout",
               "isDocsHomePage": false,
-              "title": "allwinner_v3s_tryout",
-              "description": "PURPOSE",
+              "title": "Docs Markdown Features",
+              "description": "How do I find you when I cannot solve this problem",
               "source": "@site/docs/allwinner_v3s_tryout.md",
               "sourceDirName": ".",
-              "slug": "/allwinner_v3s_tryout",
-              "permalink": "/docs/allwinner_v3s_tryout",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/allwinner_v3s_tryout.md",
+              "slug": "/myDoc",
+              "permalink": "/docs/myDoc",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/docs/api-doc-markdown.md",
               "version": "current",
+              "sidebarPosition": 3,
               "frontMatter": {
-                "id": "allwinner_v3s_tryout",
-                "title": "allwinner_v3s_tryout"
+                "title": "Docs Markdown Features",
+                "slug": "/myDoc",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "Markdown",
+                "sidebar_position": 3,
+                "pagination_label": "Markdown features",
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/master/docs/api-doc-markdown.md",
+                "description": "How do I find you when I cannot solve this problem",
+                "keywords": [
+                  "docs",
+                  "docusaurus",
+                  "hello_keywords"
+                ],
+                "image": "https://i.imgur.com/mErPwqL.png"
               }
             },
             {
@@ -551,6 +565,11 @@
         "type": "jsx",
         "permalink": "/",
         "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/index_thumbnails",
+        "source": "@site/src/pages/index_thumbnails.js"
       },
       {
         "type": "mdx",

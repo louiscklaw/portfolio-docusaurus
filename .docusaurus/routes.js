@@ -89,24 +89,24 @@ export default [
     exact: true
   },
   {
+    path: '/index_thumbnails',
+    component: ComponentCreator('/index_thumbnails','481'),
+    exact: true
+  },
+  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page','be1'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','5f1'),
+    component: ComponentCreator('/docs','c1b'),
     routes: [
       {
         path: '/docs/',
         component: ComponentCreator('/docs/','6b2'),
         exact: true,
         'sidebar': "someSidebar"
-      },
-      {
-        path: '/docs/allwinner_v3s_tryout',
-        component: ComponentCreator('/docs/allwinner_v3s_tryout','8a9'),
-        exact: true
       },
       {
         path: '/docs/appium_behave_notes',
@@ -148,6 +148,11 @@ export default [
       {
         path: '/docs/my_linux_toolbox',
         component: ComponentCreator('/docs/my_linux_toolbox','931'),
+        exact: true
+      },
+      {
+        path: '/docs/myDoc',
+        component: ComponentCreator('/docs/myDoc','143'),
         exact: true
       },
       {

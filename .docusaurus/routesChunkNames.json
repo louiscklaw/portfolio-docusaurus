@@ -110,11 +110,15 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-welcome-286-e55"
   },
+  "/index_thumbnails-481": {
+    "component": "component---site-src-pages-index-thumbnails-js-086-f2c",
+    "config": "config---5-e-9-4f3"
+  },
   "/markdown-page-be1": {
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-5f1": {
+  "/docs-c1b": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -122,17 +126,13 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-b-2-f-393"
   },
-  "/docs/allwinner_v3s_tryout-8a9": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tradingview-dashboard-15-d-ef6"
-  },
   "/docs/appium_behave_notes-a7c": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tradingview-dashboard-594-bd7"
+    "content": "content---docs-appium-behave-notes-594-644"
   },
   "/docs/daily_job_search-948": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tradingview-dashboard-40-c-f6f"
+    "content": "content---docs-daily-job-search-40-c-2a7"
   },
   "/docs/doc3-b20": {
     "component": "component---theme-doc-item-178-a40",
@@ -140,15 +140,15 @@
   },
   "/docs/hk_data_searcher-3a0": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tradingview-dashboard-262-ea8"
+    "content": "content---docs-hk-data-searcher-262-d31"
   },
   "/docs/hko_weather_bot-736": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tradingview-dashboard-1-fd-24a"
+    "content": "content---docs-hko-weather-bot-1-fd-52b"
   },
   "/docs/m5stack_playlist-5e9": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tradingview-dashboard-829-f2e"
+    "content": "content---docs-m-5-stack-playlist-829-0c1"
   },
   "/docs/mdx-9b3": {
     "component": "component---theme-doc-item-178-a40",
@@ -156,35 +156,39 @@
   },
   "/docs/my_linux_toolbox-931": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tradingview-dashboardb-58-cc6"
+    "content": "content---docs-my-linux-toolboxb-58-7e5"
+  },
+  "/docs/myDoc-143": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-my-doc-15-d-b63"
   },
   "/docs/opencv_car_counting_tryout-cd7": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tradingview-dashboardae-0-b43"
+    "content": "content---docs-opencv-car-counting-tryoutae-0-339"
   },
   "/docs/pet_projects-c8e": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tradingview-dashboarde-16-974"
+    "content": "content---docs-pet-projectse-16-3aa"
   },
   "/docs/portfolio_tryout-914": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tradingview-dashboard-9-cb-d5e"
+    "content": "content---docs-portfolio-tryout-9-cb-7f2"
   },
   "/docs/printer_board_tryout-788": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tradingview-dashboard-346-e0f"
+    "content": "content---docs-printer-board-tryout-346-1dd"
   },
   "/docs/rthk31_rthk32_linux_viewer-a00": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tradingview-dashboard-0-a-3-644"
+    "content": "content---docs-rthk-31-rthk-32-linux-viewer-0-a-3-f2e"
   },
   "/docs/slic3r_tryout-923": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tradingview-dashboard-6-dc-d8d"
+    "content": "content---docs-slic-3-r-tryout-6-dc-b7f"
   },
   "/docs/tappy_tryout-345": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tradingview-dashboard-552-491"
+    "content": "content---docs-tappy-tryout-552-d06"
   },
   "/docs/tradingview_dashboard-9c0": {
     "component": "component---theme-doc-item-178-a40",

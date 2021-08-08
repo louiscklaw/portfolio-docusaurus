@@ -1,0 +1,17 @@
+{
+  "unversionedId": "tappy_tryout",
+  "id": "tappy_tryout",
+  "isDocsHomePage": false,
+  "title": "tappy_tryout",
+  "description": "PURPOSE",
+  "source": "@site/docs/tappy_tryout.md",
+  "sourceDirName": ".",
+  "slug": "/tappy_tryout",
+  "permalink": "/docs/tappy_tryout",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tappy_tryout.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "tappy_tryout",
+    "title": "tappy_tryout"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "unversionedId": "m5stack_playlist",
+  "id": "m5stack_playlist",
+  "isDocsHomePage": false,
+  "title": "m5stack_playlist",
+  "description": "PURPOSE",
+  "source": "@site/docs/m5stack_playlist.md",
+  "sourceDirName": ".",
+  "slug": "/m5stack_playlist",
+  "permalink": "/docs/m5stack_playlist",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/m5stack_playlist.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "m5stack_playlist",
+    "title": "m5stack_playlist"
+  }
+}

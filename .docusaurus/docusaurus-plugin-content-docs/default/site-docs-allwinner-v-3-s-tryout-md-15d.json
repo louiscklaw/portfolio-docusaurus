@@ -1,0 +1,17 @@
+{
+  "unversionedId": "allwinner_v3s_tryout",
+  "id": "allwinner_v3s_tryout",
+  "isDocsHomePage": false,
+  "title": "allwinner_v3s_tryout",
+  "description": "PURPOSE",
+  "source": "@site/docs/allwinner_v3s_tryout.md",
+  "sourceDirName": ".",
+  "slug": "/allwinner_v3s_tryout",
+  "permalink": "/docs/allwinner_v3s_tryout",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/allwinner_v3s_tryout.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "allwinner_v3s_tryout",
+    "title": "allwinner_v3s_tryout"
+  }
+}

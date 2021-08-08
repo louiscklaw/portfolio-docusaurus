@@ -1,0 +1,17 @@
+{
+  "unversionedId": "pet_projects",
+  "id": "pet_projects",
+  "isDocsHomePage": false,
+  "title": "pet_projects",
+  "description": "PURPOSE",
+  "source": "@site/docs/pet_projects.md",
+  "sourceDirName": ".",
+  "slug": "/pet_projects",
+  "permalink": "/docs/pet_projects",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/pet_projects.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "pet_projects",
+    "title": "pet_projects"
+  }
+}

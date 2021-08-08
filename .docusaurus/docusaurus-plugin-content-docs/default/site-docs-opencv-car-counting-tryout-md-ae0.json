@@ -1,0 +1,17 @@
+{
+  "unversionedId": "opencv_car_counting_tryout",
+  "id": "opencv_car_counting_tryout",
+  "isDocsHomePage": false,
+  "title": "opencv_car_counting_tryout",
+  "description": "PURPOSE",
+  "source": "@site/docs/opencv_car_counting_tryout.md",
+  "sourceDirName": ".",
+  "slug": "/opencv_car_counting_tryout",
+  "permalink": "/docs/opencv_car_counting_tryout",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/opencv_car_counting_tryout.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "opencv_car_counting_tryout",
+    "title": "opencv_car_counting_tryout"
+  }
+}

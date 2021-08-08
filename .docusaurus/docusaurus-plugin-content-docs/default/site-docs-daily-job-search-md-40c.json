@@ -1,0 +1,17 @@
+{
+  "unversionedId": "daily_job_search",
+  "id": "daily_job_search",
+  "isDocsHomePage": false,
+  "title": "daily_job_search",
+  "description": "PURPOSE",
+  "source": "@site/docs/daily_job_search.md",
+  "sourceDirName": ".",
+  "slug": "/daily_job_search",
+  "permalink": "/docs/daily_job_search",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/daily_job_search.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "daily_job_search",
+    "title": "daily_job_search"
+  }
+}

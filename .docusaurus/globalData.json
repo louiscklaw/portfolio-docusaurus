@@ -1,0 +1,94 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "doc1",
+          "docs": [
+            {
+              "id": "allwinner_v3s_tryout",
+              "path": "/docs/allwinner_v3s_tryout"
+            },
+            {
+              "id": "appium_behave_notes",
+              "path": "/docs/appium_behave_notes"
+            },
+            {
+              "id": "daily_job_search",
+              "path": "/docs/daily_job_search"
+            },
+            {
+              "id": "doc1",
+              "path": "/docs/",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "doc3",
+              "path": "/docs/doc3",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "hk_data_searcher",
+              "path": "/docs/hk_data_searcher"
+            },
+            {
+              "id": "hko_weather_bot",
+              "path": "/docs/hko_weather_bot"
+            },
+            {
+              "id": "m5stack_playlist",
+              "path": "/docs/m5stack_playlist"
+            },
+            {
+              "id": "mdx",
+              "path": "/docs/mdx",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "my_linux_toolbox",
+              "path": "/docs/my_linux_toolbox"
+            },
+            {
+              "id": "opencv_car_counting_tryout",
+              "path": "/docs/opencv_car_counting_tryout"
+            },
+            {
+              "id": "pet_projects",
+              "path": "/docs/pet_projects"
+            },
+            {
+              "id": "portfolio_tryout",
+              "path": "/docs/portfolio_tryout"
+            },
+            {
+              "id": "printer_board_tryout",
+              "path": "/docs/printer_board_tryout"
+            },
+            {
+              "id": "rthk31_rthk32_linux_viewer",
+              "path": "/docs/rthk31_rthk32_linux_viewer"
+            },
+            {
+              "id": "slic3r_tryout",
+              "path": "/docs/slic3r_tryout"
+            },
+            {
+              "id": "tappy_tryout",
+              "path": "/docs/tappy_tryout"
+            },
+            {
+              "id": "tradingview_dashboard",
+              "path": "/docs/tradingview_dashboard",
+              "sidebar": "someSidebar"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

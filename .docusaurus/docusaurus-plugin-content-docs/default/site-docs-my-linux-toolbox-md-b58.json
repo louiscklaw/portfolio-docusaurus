@@ -1,0 +1,17 @@
+{
+  "unversionedId": "my_linux_toolbox",
+  "id": "my_linux_toolbox",
+  "isDocsHomePage": false,
+  "title": "my_linux_toolbox",
+  "description": "PURPOSE",
+  "source": "@site/docs/my_linux_toolbox.md",
+  "sourceDirName": ".",
+  "slug": "/my_linux_toolbox",
+  "permalink": "/docs/my_linux_toolbox",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/my_linux_toolbox.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "my_linux_toolbox",
+    "title": "my_linux_toolbox"
+  }
+}

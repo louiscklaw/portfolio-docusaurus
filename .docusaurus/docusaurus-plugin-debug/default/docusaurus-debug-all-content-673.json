@@ -1,0 +1,571 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "versionEditUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs",
+          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionBanner": "none",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/home/logic/_workspace/portfolio-docusaurus/sidebars.js",
+          "contentPath": "/home/logic/_workspace/portfolio-docusaurus/docs",
+          "contentPathLocalized": "/home/logic/_workspace/portfolio-docusaurus/i18n/en/docusaurus-plugin-content-docs/current",
+          "mainDocId": "doc1",
+          "sidebars": {
+            "someSidebar": [
+              {
+                "type": "category",
+                "collapsed": true,
+                "collapsible": true,
+                "label": "Docusaurus",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "doc1"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tradingview_dashboard"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "doc3"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "collapsed": true,
+                "collapsible": true,
+                "label": "Features",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "mdx"
+                  }
+                ]
+              }
+            ]
+          },
+          "docs": [
+            {
+              "unversionedId": "allwinner_v3s_tryout",
+              "id": "allwinner_v3s_tryout",
+              "isDocsHomePage": false,
+              "title": "allwinner_v3s_tryout",
+              "description": "PURPOSE",
+              "source": "@site/docs/allwinner_v3s_tryout.md",
+              "sourceDirName": ".",
+              "slug": "/allwinner_v3s_tryout",
+              "permalink": "/docs/allwinner_v3s_tryout",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/allwinner_v3s_tryout.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "allwinner_v3s_tryout",
+                "title": "allwinner_v3s_tryout"
+              }
+            },
+            {
+              "unversionedId": "appium_behave_notes",
+              "id": "appium_behave_notes",
+              "isDocsHomePage": false,
+              "title": "appium_behave_notes",
+              "description": "PURPOSE",
+              "source": "@site/docs/appium_behave_notes.md",
+              "sourceDirName": ".",
+              "slug": "/appium_behave_notes",
+              "permalink": "/docs/appium_behave_notes",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/appium_behave_notes.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "appium_behave_notes",
+                "title": "appium_behave_notes"
+              }
+            },
+            {
+              "unversionedId": "daily_job_search",
+              "id": "daily_job_search",
+              "isDocsHomePage": false,
+              "title": "daily_job_search",
+              "description": "PURPOSE",
+              "source": "@site/docs/daily_job_search.md",
+              "sourceDirName": ".",
+              "slug": "/daily_job_search",
+              "permalink": "/docs/daily_job_search",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/daily_job_search.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "daily_job_search",
+                "title": "daily_job_search"
+              }
+            },
+            {
+              "unversionedId": "doc1",
+              "id": "doc1",
+              "isDocsHomePage": false,
+              "title": "Style Guide",
+              "description": "You can write content using GitHub-flavored Markdown syntax.",
+              "source": "@site/docs/doc1.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/docs/",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc1.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "doc1",
+                "title": "Style Guide",
+                "sidebar_label": "Style Guide",
+                "slug": "/"
+              },
+              "sidebar": "someSidebar",
+              "next": {
+                "title": "tradingview_dashboard",
+                "permalink": "/docs/tradingview_dashboard"
+              }
+            },
+            {
+              "unversionedId": "doc3",
+              "id": "doc3",
+              "isDocsHomePage": false,
+              "title": "This is Document Number 3",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "source": "@site/docs/doc3.md",
+              "sourceDirName": ".",
+              "slug": "/doc3",
+              "permalink": "/docs/doc3",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc3.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "doc3",
+                "title": "This is Document Number 3"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "tradingview_dashboard",
+                "permalink": "/docs/tradingview_dashboard"
+              },
+              "next": {
+                "title": "Powered by MDX",
+                "permalink": "/docs/mdx"
+              }
+            },
+            {
+              "unversionedId": "hk_data_searcher",
+              "id": "hk_data_searcher",
+              "isDocsHomePage": false,
+              "title": "hk_data_searcher",
+              "description": "PURPOSE",
+              "source": "@site/docs/hk_data_searcher.md",
+              "sourceDirName": ".",
+              "slug": "/hk_data_searcher",
+              "permalink": "/docs/hk_data_searcher",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/hk_data_searcher.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "hk_data_searcher",
+                "title": "hk_data_searcher"
+              }
+            },
+            {
+              "unversionedId": "hko_weather_bot",
+              "id": "hko_weather_bot",
+              "isDocsHomePage": false,
+              "title": "hko_weather_bot",
+              "description": "PURPOSE",
+              "source": "@site/docs/hko_weather_bot.md",
+              "sourceDirName": ".",
+              "slug": "/hko_weather_bot",
+              "permalink": "/docs/hko_weather_bot",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/hko_weather_bot.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "hko_weather_bot",
+                "title": "hko_weather_bot"
+              }
+            },
+            {
+              "unversionedId": "m5stack_playlist",
+              "id": "m5stack_playlist",
+              "isDocsHomePage": false,
+              "title": "m5stack_playlist",
+              "description": "PURPOSE",
+              "source": "@site/docs/m5stack_playlist.md",
+              "sourceDirName": ".",
+              "slug": "/m5stack_playlist",
+              "permalink": "/docs/m5stack_playlist",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/m5stack_playlist.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "m5stack_playlist",
+                "title": "m5stack_playlist"
+              }
+            },
+            {
+              "unversionedId": "mdx",
+              "id": "mdx",
+              "isDocsHomePage": false,
+              "title": "Powered by MDX",
+              "description": "You can write JSX and use React components within your Markdown thanks to MDX.",
+              "source": "@site/docs/interactiveDoc.mdx",
+              "sourceDirName": ".",
+              "slug": "/mdx",
+              "permalink": "/docs/mdx",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/interactiveDoc.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "mdx",
+                "title": "Powered by MDX"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "This is Document Number 3",
+                "permalink": "/docs/doc3"
+              }
+            },
+            {
+              "unversionedId": "my_linux_toolbox",
+              "id": "my_linux_toolbox",
+              "isDocsHomePage": false,
+              "title": "my_linux_toolbox",
+              "description": "PURPOSE",
+              "source": "@site/docs/my_linux_toolbox.md",
+              "sourceDirName": ".",
+              "slug": "/my_linux_toolbox",
+              "permalink": "/docs/my_linux_toolbox",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/my_linux_toolbox.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "my_linux_toolbox",
+                "title": "my_linux_toolbox"
+              }
+            },
+            {
+              "unversionedId": "opencv_car_counting_tryout",
+              "id": "opencv_car_counting_tryout",
+              "isDocsHomePage": false,
+              "title": "opencv_car_counting_tryout",
+              "description": "PURPOSE",
+              "source": "@site/docs/opencv_car_counting_tryout.md",
+              "sourceDirName": ".",
+              "slug": "/opencv_car_counting_tryout",
+              "permalink": "/docs/opencv_car_counting_tryout",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/opencv_car_counting_tryout.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "opencv_car_counting_tryout",
+                "title": "opencv_car_counting_tryout"
+              }
+            },
+            {
+              "unversionedId": "pet_projects",
+              "id": "pet_projects",
+              "isDocsHomePage": false,
+              "title": "pet_projects",
+              "description": "PURPOSE",
+              "source": "@site/docs/pet_projects.md",
+              "sourceDirName": ".",
+              "slug": "/pet_projects",
+              "permalink": "/docs/pet_projects",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/pet_projects.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "pet_projects",
+                "title": "pet_projects"
+              }
+            },
+            {
+              "unversionedId": "portfolio_tryout",
+              "id": "portfolio_tryout",
+              "isDocsHomePage": false,
+              "title": "portfolio_tryout",
+              "description": "PURPOSE",
+              "source": "@site/docs/portfolio_tryout.md",
+              "sourceDirName": ".",
+              "slug": "/portfolio_tryout",
+              "permalink": "/docs/portfolio_tryout",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/portfolio_tryout.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "portfolio_tryout",
+                "title": "portfolio_tryout"
+              }
+            },
+            {
+              "unversionedId": "printer_board_tryout",
+              "id": "printer_board_tryout",
+              "isDocsHomePage": false,
+              "title": "printer_board_tryout",
+              "description": "PURPOSE",
+              "source": "@site/docs/printer_board_tryout.md",
+              "sourceDirName": ".",
+              "slug": "/printer_board_tryout",
+              "permalink": "/docs/printer_board_tryout",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/printer_board_tryout.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "printer_board_tryout",
+                "title": "printer_board_tryout"
+              }
+            },
+            {
+              "unversionedId": "rthk31_rthk32_linux_viewer",
+              "id": "rthk31_rthk32_linux_viewer",
+              "isDocsHomePage": false,
+              "title": "rthk31_rthk32_linux_viewer",
+              "description": "PURPOSE",
+              "source": "@site/docs/rthk31_rthk32_linux_viewer.md",
+              "sourceDirName": ".",
+              "slug": "/rthk31_rthk32_linux_viewer",
+              "permalink": "/docs/rthk31_rthk32_linux_viewer",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/rthk31_rthk32_linux_viewer.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "rthk31_rthk32_linux_viewer",
+                "title": "rthk31_rthk32_linux_viewer"
+              }
+            },
+            {
+              "unversionedId": "slic3r_tryout",
+              "id": "slic3r_tryout",
+              "isDocsHomePage": false,
+              "title": "slic3r_tryout",
+              "description": "PURPOSE",
+              "source": "@site/docs/slic3r_tryout.md",
+              "sourceDirName": ".",
+              "slug": "/slic3r_tryout",
+              "permalink": "/docs/slic3r_tryout",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/slic3r_tryout.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "slic3r_tryout",
+                "title": "slic3r_tryout"
+              }
+            },
+            {
+              "unversionedId": "tappy_tryout",
+              "id": "tappy_tryout",
+              "isDocsHomePage": false,
+              "title": "tappy_tryout",
+              "description": "PURPOSE",
+              "source": "@site/docs/tappy_tryout.md",
+              "sourceDirName": ".",
+              "slug": "/tappy_tryout",
+              "permalink": "/docs/tappy_tryout",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tappy_tryout.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "tappy_tryout",
+                "title": "tappy_tryout"
+              }
+            },
+            {
+              "unversionedId": "tradingview_dashboard",
+              "id": "tradingview_dashboard",
+              "isDocsHomePage": false,
+              "title": "tradingview_dashboard",
+              "description": "PURPOSE",
+              "source": "@site/docs/tradingview_dashboard.md",
+              "sourceDirName": ".",
+              "slug": "/tradingview_dashboard",
+              "permalink": "/docs/tradingview_dashboard",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tradingview_dashboard.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "tradingview_dashboard",
+                "title": "tradingview_dashboard"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Style Guide",
+                "permalink": "/docs/"
+              },
+              "next": {
+                "title": "This is Document Number 3",
+                "permalink": "/docs/doc3"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogPosts": [
+        {
+          "id": "welcome",
+          "metadata": {
+            "permalink": "/blog/welcome",
+            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-30-welcome.md",
+            "source": "@site/blog/2019-05-30-welcome.md",
+            "title": "Welcome",
+            "description": "Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!",
+            "date": "2019-05-30T00:00:00.000Z",
+            "formattedDate": "May 30, 2019",
+            "tags": [
+              {
+                "label": "facebook",
+                "permalink": "/blog/tags/facebook"
+              },
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.175,
+            "truncated": false,
+            "nextItem": {
+              "title": "Hello",
+              "permalink": "/blog/hello-world"
+            }
+          }
+        },
+        {
+          "id": "hello-world",
+          "metadata": {
+            "permalink": "/blog/hello-world",
+            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-29-hello-world.md",
+            "source": "@site/blog/2019-05-29-hello-world.md",
+            "title": "Hello",
+            "description": "Welcome to this blog. This blog is created with Docusaurus 2.",
+            "date": "2019-05-29T00:00:00.000Z",
+            "formattedDate": "May 29, 2019",
+            "tags": [
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.115,
+            "truncated": true,
+            "prevItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            },
+            "nextItem": {
+              "title": "Hola",
+              "permalink": "/blog/hola"
+            }
+          }
+        },
+        {
+          "id": "hola",
+          "metadata": {
+            "permalink": "/blog/hola",
+            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-28-hola.md",
+            "source": "@site/blog/2019-05-28-hola.md",
+            "title": "Hola",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+            "date": "2019-05-28T00:00:00.000Z",
+            "formattedDate": "May 28, 2019",
+            "tags": [
+              {
+                "label": "hola",
+                "permalink": "/blog/tags/hola"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.12,
+            "truncated": false,
+            "prevItem": {
+              "title": "Hello",
+              "permalink": "/blog/hello-world"
+            }
+          }
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 3,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          },
+          "items": [
+            "welcome",
+            "hello-world",
+            "hola"
+          ]
+        }
+      ],
+      "blogTags": {
+        "facebook": {
+          "name": "facebook",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/facebook"
+        },
+        "hello": {
+          "name": "hello",
+          "items": [
+            "welcome",
+            "hello-world"
+          ],
+          "permalink": "/blog/tags/hello"
+        },
+        "docusaurus": {
+          "name": "docusaurus",
+          "items": [
+            "welcome",
+            "hello-world",
+            "hola"
+          ],
+          "permalink": "/blog/tags/docusaurus"
+        },
+        "hola": {
+          "name": "hola",
+          "items": [
+            "hola"
+          ],
+          "permalink": "/blog/tags/hola"
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  },
+  "docusaurus-plugin-pwa": {
+    "default": null
+  }
+}

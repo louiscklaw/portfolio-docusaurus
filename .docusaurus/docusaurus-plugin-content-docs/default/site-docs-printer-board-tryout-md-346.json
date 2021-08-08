@@ -1,0 +1,17 @@
+{
+  "unversionedId": "printer_board_tryout",
+  "id": "printer_board_tryout",
+  "isDocsHomePage": false,
+  "title": "printer_board_tryout",
+  "description": "PURPOSE",
+  "source": "@site/docs/printer_board_tryout.md",
+  "sourceDirName": ".",
+  "slug": "/printer_board_tryout",
+  "permalink": "/docs/printer_board_tryout",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/printer_board_tryout.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "printer_board_tryout",
+    "title": "printer_board_tryout"
+  }
+}

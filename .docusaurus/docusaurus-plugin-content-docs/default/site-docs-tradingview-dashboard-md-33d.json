@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tradingview_dashboard",
+  "id": "tradingview_dashboard",
+  "isDocsHomePage": false,
+  "title": "tradingview_dashboard",
+  "description": "PURPOSE",
+  "source": "@site/docs/tradingview_dashboard.md",
+  "sourceDirName": ".",
+  "slug": "/tradingview_dashboard",
+  "permalink": "/docs/tradingview_dashboard",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tradingview_dashboard.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "tradingview_dashboard",
+    "title": "tradingview_dashboard"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Style Guide",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "This is Document Number 3",
+    "permalink": "/docs/doc3"
+  }
+}

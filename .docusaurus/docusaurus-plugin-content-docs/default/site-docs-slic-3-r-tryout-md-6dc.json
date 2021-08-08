@@ -1,0 +1,17 @@
+{
+  "unversionedId": "slic3r_tryout",
+  "id": "slic3r_tryout",
+  "isDocsHomePage": false,
+  "title": "slic3r_tryout",
+  "description": "PURPOSE",
+  "source": "@site/docs/slic3r_tryout.md",
+  "sourceDirName": ".",
+  "slug": "/slic3r_tryout",
+  "permalink": "/docs/slic3r_tryout",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/slic3r_tryout.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "slic3r_tryout",
+    "title": "slic3r_tryout"
+  }
+}

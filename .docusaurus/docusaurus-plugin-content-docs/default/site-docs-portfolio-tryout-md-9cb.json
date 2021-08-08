@@ -1,0 +1,17 @@
+{
+  "unversionedId": "portfolio_tryout",
+  "id": "portfolio_tryout",
+  "isDocsHomePage": false,
+  "title": "portfolio_tryout",
+  "description": "PURPOSE",
+  "source": "@site/docs/portfolio_tryout.md",
+  "sourceDirName": ".",
+  "slug": "/portfolio_tryout",
+  "permalink": "/docs/portfolio_tryout",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/portfolio_tryout.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "portfolio_tryout",
+    "title": "portfolio_tryout"
+  }
+}

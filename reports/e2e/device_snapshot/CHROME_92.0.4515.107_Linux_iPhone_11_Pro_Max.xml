@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="device_snapshot.iPhone_11_Pro_Max"
+    errors="0" failures="0" hostname="" id="" package="device_snapshot" skipped="0"
+    tests="2" time="1.819" timestamp="">
+  
+    <testcase name="Demo test iPhone 11 Pro Max, 414, 896" classname="device_snapshot.iPhone_11_Pro_Max" time="1.374" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Finished" classname="device_snapshot.iPhone_11_Pro_Max" time="0.4450" assertions="0">
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

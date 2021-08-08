@@ -1,0 +1,17 @@
+{
+  "unversionedId": "hko_weather_bot",
+  "id": "hko_weather_bot",
+  "isDocsHomePage": false,
+  "title": "hko_weather_bot",
+  "description": "PURPOSE",
+  "source": "@site/docs/hko_weather_bot.md",
+  "sourceDirName": ".",
+  "slug": "/hko_weather_bot",
+  "permalink": "/docs/hko_weather_bot",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/hko_weather_bot.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "hko_weather_bot",
+    "title": "hko_weather_bot"
+  }
+}

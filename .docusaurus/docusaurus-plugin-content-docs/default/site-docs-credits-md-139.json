@@ -1,0 +1,17 @@
+{
+  "unversionedId": "CREDITS",
+  "id": "CREDITS",
+  "isDocsHomePage": false,
+  "title": "ABOUT PAGE",
+  "description": "ABOUT PAGE PLACEHOLDER",
+  "source": "@site/docs/CREDITS.md",
+  "sourceDirName": ".",
+  "slug": "/credits",
+  "permalink": "/docs/credits",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/CREDITS.md",
+  "version": "current",
+  "frontMatter": {
+    "title": "ABOUT PAGE",
+    "slug": "/credits"
+  }
+}

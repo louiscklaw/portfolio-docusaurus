@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','c1b'),
+    component: ComponentCreator('/docs','4b2'),
     routes: [
       {
         path: '/docs/',
@@ -109,8 +109,18 @@ export default [
         'sidebar': "someSidebar"
       },
       {
+        path: '/docs/about_louis',
+        component: ComponentCreator('/docs/about_louis','fd6'),
+        exact: true
+      },
+      {
         path: '/docs/appium_behave_notes',
         component: ComponentCreator('/docs/appium_behave_notes','a7c'),
+        exact: true
+      },
+      {
+        path: '/docs/credits',
+        component: ComponentCreator('/docs/credits','c7e'),
         exact: true
       },
       {

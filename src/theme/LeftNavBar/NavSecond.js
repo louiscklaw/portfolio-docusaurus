@@ -23,12 +23,16 @@ export default function NavSecond() {
           </Box>
 
           <Box mt={2}>
-            <Link isNavLink to={"/"} style={{ color: THEME_WHITE }}>
+            <Link
+              isNavLink
+              to={"/docs/about_louis"}
+              style={{ color: THEME_WHITE }}
+            >
               ABOUT
             </Link>{" "}
           </Box>
           <Box mt={2}>
-            <Link isNavLink to={"/"} style={{ color: THEME_WHITE }}>
+            <Link isNavLink to={"/docs/credits"} style={{ color: THEME_WHITE }}>
               CREDITS
             </Link>{" "}
           </Box>

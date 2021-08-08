@@ -11,12 +11,20 @@
           "mainDocId": "doc1",
           "docs": [
             {
+              "id": "ABOUT",
+              "path": "/docs/about_louis"
+            },
+            {
               "id": "allwinner_v3s_tryout",
               "path": "/docs/myDoc"
             },
             {
               "id": "appium_behave_notes",
               "path": "/docs/appium_behave_notes"
+            },
+            {
+              "id": "CREDITS",
+              "path": "/docs/credits"
             },
             {
               "id": "daily_job_search",

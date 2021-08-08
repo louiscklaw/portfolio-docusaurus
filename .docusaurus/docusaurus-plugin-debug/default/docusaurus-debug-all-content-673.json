@@ -53,6 +53,23 @@
           },
           "docs": [
             {
+              "unversionedId": "ABOUT",
+              "id": "ABOUT",
+              "isDocsHomePage": false,
+              "title": "ABOUT PAGE",
+              "description": "ABOUT PAGE PLACEHOLDER",
+              "source": "@site/docs/ABOUT.md",
+              "sourceDirName": ".",
+              "slug": "/about_louis",
+              "permalink": "/docs/about_louis",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/ABOUT.md",
+              "version": "current",
+              "frontMatter": {
+                "title": "ABOUT PAGE",
+                "slug": "/about_louis"
+              }
+            },
+            {
               "unversionedId": "allwinner_v3s_tryout",
               "id": "allwinner_v3s_tryout",
               "isDocsHomePage": false,
@@ -98,6 +115,23 @@
               "frontMatter": {
                 "id": "appium_behave_notes",
                 "title": "appium_behave_notes"
+              }
+            },
+            {
+              "unversionedId": "CREDITS",
+              "id": "CREDITS",
+              "isDocsHomePage": false,
+              "title": "ABOUT PAGE",
+              "description": "ABOUT PAGE PLACEHOLDER",
+              "source": "@site/docs/CREDITS.md",
+              "sourceDirName": ".",
+              "slug": "/credits",
+              "permalink": "/docs/credits",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/CREDITS.md",
+              "version": "current",
+              "frontMatter": {
+                "title": "ABOUT PAGE",
+                "slug": "/credits"
               }
             },
             {

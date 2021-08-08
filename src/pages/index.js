@@ -33,22 +33,24 @@ export default function Home() {
           >
             {context.globalData[
               "docusaurus-plugin-content-docs"
-            ].default.versions[0].docs.map((doc, index) => (
-              <Grid item xs={4} md={3} key={index} style={{ height: "25%" }}>
-                <div
-                  style={{
-                    height: "100%",
-                    backgroundImage: `url("${index_thumbnails[doc.id]}")`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                  }}
-                >
-                  <Link isNavLink to={doc.path}>
-                    {doc.id}
-                  </Link>
-                </div>
-              </Grid>
-            ))}
+            ].default.versions[0].docs
+              .filter((doc) => !["ABOUT", "CREDITS"].includes(doc.id))
+              .map((doc, index) => (
+                <Grid item xs={4} md={3} key={index} style={{ height: "25%" }}>
+                  <div
+                    style={{
+                      height: "100%",
+                      backgroundImage: `url("${index_thumbnails[doc.id]}")`,
+                      backgroundSize: "cover",
+                      backgroundPosition: "center",
+                    }}
+                  >
+                    <Link isNavLink to={doc.path}>
+                      {doc.id}
+                    </Link>
+                  </div>
+                </Grid>
+              ))}
 
             {Array.from(Array(2)).map((_, index) => (
               <Grid

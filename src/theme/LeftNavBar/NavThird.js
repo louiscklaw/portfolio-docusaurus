@@ -3,12 +3,36 @@ import Link from "@docusaurus/Link";
 
 import { THEME_WHITE } from "../styles/colors";
 import { Box, Grid, Typography } from "@material-ui/core";
+import {
+  FiGithub,
+  FiLinkedin,
+  FiSlack,
+  FiSend,
+  FiAtSign,
+} from "react-icons/fi";
 
 export default function NavThird() {
   return (
     <>
       <Box style={{ height: "33vh", color: THEME_WHITE }} mt={2}>
-        <Grid container style={{ height: "100%" }}>
+        <Grid container style={{ height: "100%", textAlign: "center" }}>
+          <Grid item container xs={12}>
+            <Grid item xs>
+              <FiGithub size={"1rem"} />
+            </Grid>
+            <Grid item xs>
+              <FiLinkedin size={"1rem"} />
+            </Grid>
+            <Grid item xs>
+              <FiSlack size={"1rem"} />
+            </Grid>
+            <Grid item xs>
+              <FiSend size={"1rem"} />
+            </Grid>
+            <Grid item xs>
+              <FiAtSign size={"1rem"} />
+            </Grid>
+          </Grid>
           <Grid item xs={12}>
             <Box mt={2}>
               <Grid

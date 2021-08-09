@@ -95,7 +95,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','6af'),
+    component: ComponentCreator('/docs','641'),
     routes: [
       {
         path: '/docs/about_louis',
@@ -170,11 +170,6 @@ export default [
       {
         path: '/docs/tappy_tryout',
         component: ComponentCreator('/docs/tappy_tryout','345'),
-        exact: true
-      },
-      {
-        path: '/docs/test',
-        component: ComponentCreator('/docs/test','d18'),
         exact: true
       },
       {

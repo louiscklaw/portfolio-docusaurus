@@ -33,7 +33,7 @@ export default function Home() {
             {context.globalData[
               "docusaurus-plugin-content-docs"
             ].default.versions[0].docs
-              .filter((doc) => !["ABOUT", "CREDITS"].includes(doc.id))
+              .filter((doc) => !["ABOUT", "CREDITS", "_TEST"].includes(doc.id))
               .map((doc, index) => (
                 <Grid item xs={4} md={3} key={index} style={{ height: "25%" }}>
                   <ProjectThumbnail doc={doc} />

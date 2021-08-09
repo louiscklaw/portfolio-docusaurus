@@ -60,14 +60,7 @@ function DocItem(props) {
     canRenderTOC && (windowSize === "desktop" || windowSize === "ssr");
   return (
     <>
-      <Seo
-        {...{
-          title,
-          description,
-          keywords,
-          image,
-        }}
-      />
+      <Seo {...{ title, description, keywords, image }} />
 
       <div className="row">
         <div

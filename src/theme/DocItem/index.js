@@ -24,6 +24,7 @@ import Link from "@docusaurus/Link";
 import { FiCalendar, FiTag } from "react-icons/fi";
 
 import ProjectTitle from "../../components/ProjectTitle";
+import ProjectPageHead from "../../components/ProjectPageHead";
 
 function DocItem(props) {
   const { content: DocContent, versionMetadata } = props;
@@ -95,38 +96,18 @@ function DocItem(props) {
           */}
 
                 {/* {shouldAddTitle && <MainHeading>{title}</MainHeading>} */}
-                <Grid container>
-                  <Grid item xs={3}>
-                    <Link isNavLink to="/">
-                      Back to catalogue
-                    </Link>
-                  </Grid>
-                  <Grid item xs={6} style={{ textAlign: "center" }}>
+                <Box style={{ padding: "8%" }}>
+                  <ProjectPageHead title={title} />
+                  <Box mt={10} style={{ backgroundColor: "gold" }}>
                     <Grid container>
-                      <Grid item xs={12}>
-                        <ProjectTitle>{title}</ProjectTitle>
+                      <Grid item xs></Grid>
+                      <Grid item xs={10}>
+                        <DocContent />
                       </Grid>
-                      <Grid item xs={12}>
-                        {Array.from(Array(4)).map((x) => {
-                          return (
-                            <Box component="span">
-                              <Box component="span">
-                                <FiTag />
-                              </Box>
-                              <Box component="span">helloworld</Box>
-                            </Box>
-                          );
-                        })}
-                      </Grid>
+                      <Grid item xs></Grid>
                     </Grid>
-                  </Grid>
-                  <Grid item xs={3}>
-                    <FiCalendar size="1rem" />
-                    metadata.update
-                  </Grid>
-                </Grid>
-
-                <DocContent />
+                  </Box>
+                </Box>
 
                 <pre>{JSON.stringify(metadata, null, 2)}</pre>
               </div>

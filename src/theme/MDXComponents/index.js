@@ -10,6 +10,8 @@ import CodeBlock from "@theme/CodeBlock";
 import Heading from "@theme/Heading";
 import Details from "@theme/Details";
 
+https://mdxjs.com/table-of-components
+
 const MDXComponents = {
   code: (props) => {
     const { children } = props; // For retrocompatibility purposes (pretty rare use case)

@@ -30,10 +30,6 @@
                   {
                     "type": "doc",
                     "id": "tradingview_dashboard"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "doc3"
                   }
                 ]
               },
@@ -104,7 +100,7 @@
               "unversionedId": "appium_behave_notes",
               "id": "appium_behave_notes",
               "isDocsHomePage": false,
-              "title": "appium_behave_notes",
+              "title": "Appium and Beheave notes",
               "description": "PURPOSE",
               "source": "@site/docs/appium_behave_notes.md",
               "sourceDirName": ".",
@@ -113,8 +109,12 @@
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/appium_behave_notes.md",
               "version": "current",
               "frontMatter": {
-                "id": "appium_behave_notes",
-                "title": "appium_behave_notes"
+                "title": "Appium and Beheave notes",
+                "keywords": [
+                  "Appium",
+                  "Beheave",
+                  "testing"
+                ]
               }
             },
             {
@@ -156,49 +156,36 @@
               "id": "doc1",
               "isDocsHomePage": false,
               "title": "Style Guide",
-              "description": "You can write content using GitHub-flavored Markdown syntax.",
+              "description": "How do I find you when I cannot solve this problem",
               "source": "@site/docs/Test.md",
               "sourceDirName": ".",
-              "slug": "/",
-              "permalink": "/docs/",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Test.md",
+              "slug": "/test",
+              "permalink": "/docs/test",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/docs/api-doc-markdown.md",
               "version": "current",
+              "sidebarPosition": 3,
               "frontMatter": {
                 "id": "doc1",
                 "title": "Style Guide",
-                "sidebar_label": "Style Guide",
-                "slug": "/"
+                "slug": "/test",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "Markdown",
+                "sidebar_position": 3,
+                "pagination_label": "Markdown features",
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/master/docs/api-doc-markdown.md",
+                "description": "How do I find you when I cannot solve this problem",
+                "keywords": [
+                  "embedded linux",
+                  "allwinner",
+                  "v3s"
+                ],
+                "image": "https://i.imgur.com/mErPwqL.png"
               },
               "sidebar": "someSidebar",
               "next": {
                 "title": "tradingview_dashboard",
                 "permalink": "/docs/tradingview_dashboard"
-              }
-            },
-            {
-              "unversionedId": "doc3",
-              "id": "doc3",
-              "isDocsHomePage": false,
-              "title": "This is Document Number 3",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-              "source": "@site/docs/doc3.md",
-              "sourceDirName": ".",
-              "slug": "/doc3",
-              "permalink": "/docs/doc3",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc3.md",
-              "version": "current",
-              "frontMatter": {
-                "id": "doc3",
-                "title": "This is Document Number 3"
-              },
-              "sidebar": "someSidebar",
-              "previous": {
-                "title": "tradingview_dashboard",
-                "permalink": "/docs/tradingview_dashboard"
-              },
-              "next": {
-                "title": "Powered by MDX",
-                "permalink": "/docs/mdx"
               }
             },
             {
@@ -270,8 +257,8 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "This is Document Number 3",
-                "permalink": "/docs/doc3"
+                "title": "tradingview_dashboard",
+                "permalink": "/docs/tradingview_dashboard"
               }
             },
             {
@@ -428,12 +415,12 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Style Guide",
-                "permalink": "/docs/"
+                "title": "Markdown features",
+                "permalink": "/docs/test"
               },
               "next": {
-                "title": "This is Document Number 3",
-                "permalink": "/docs/doc3"
+                "title": "Powered by MDX",
+                "permalink": "/docs/mdx"
               }
             }
           ]

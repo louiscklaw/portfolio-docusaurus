@@ -95,14 +95,8 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','9c9'),
+    component: ComponentCreator('/docs','523'),
     routes: [
-      {
-        path: '/docs/',
-        component: ComponentCreator('/docs/','724'),
-        exact: true,
-        'sidebar': "someSidebar"
-      },
       {
         path: '/docs/about_louis',
         component: ComponentCreator('/docs/about_louis','fd6'),
@@ -127,12 +121,6 @@ export default [
         path: '/docs/daily_job_search',
         component: ComponentCreator('/docs/daily_job_search','948'),
         exact: true
-      },
-      {
-        path: '/docs/doc3',
-        component: ComponentCreator('/docs/doc3','b20'),
-        exact: true,
-        'sidebar': "someSidebar"
       },
       {
         path: '/docs/hk_data_searcher',
@@ -194,6 +182,12 @@ export default [
         path: '/docs/tappy_tryout',
         component: ComponentCreator('/docs/tappy_tryout','345'),
         exact: true
+      },
+      {
+        path: '/docs/test',
+        component: ComponentCreator('/docs/test','fcb'),
+        exact: true,
+        'sidebar': "someSidebar"
       },
       {
         path: '/docs/tradingview_dashboard',

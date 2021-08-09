@@ -2,7 +2,7 @@
   "unversionedId": "appium_behave_notes",
   "id": "appium_behave_notes",
   "isDocsHomePage": false,
-  "title": "appium_behave_notes",
+  "title": "Appium and Beheave notes",
   "description": "PURPOSE",
   "source": "@site/docs/appium_behave_notes.md",
   "sourceDirName": ".",
@@ -11,7 +11,11 @@
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/appium_behave_notes.md",
   "version": "current",
   "frontMatter": {
-    "id": "appium_behave_notes",
-    "title": "appium_behave_notes"
+    "title": "Appium and Beheave notes",
+    "keywords": [
+      "Appium",
+      "Beheave",
+      "testing"
+    ]
   }
 }

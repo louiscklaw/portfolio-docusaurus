@@ -16,11 +16,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Style Guide",
-    "permalink": "/docs/"
+    "title": "Markdown features",
+    "permalink": "/docs/test"
   },
   "next": {
-    "title": "This is Document Number 3",
-    "permalink": "/docs/doc3"
+    "title": "Powered by MDX",
+    "permalink": "/docs/mdx"
   }
 }

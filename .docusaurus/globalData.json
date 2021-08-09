@@ -32,12 +32,7 @@
             },
             {
               "id": "doc1",
-              "path": "/docs/",
-              "sidebar": "someSidebar"
-            },
-            {
-              "id": "doc3",
-              "path": "/docs/doc3",
+              "path": "/docs/test",
               "sidebar": "someSidebar"
             },
             {

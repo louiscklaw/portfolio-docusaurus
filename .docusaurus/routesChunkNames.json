@@ -114,13 +114,9 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-9c9": {
+  "/docs-523": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
-  },
-  "/docs/-724": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-36-a-375"
   },
   "/docs/about_louis-fd6": {
     "component": "component---theme-doc-item-178-a40",
@@ -141,10 +137,6 @@
   "/docs/daily_job_search-948": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-daily-job-search-40-c-2a7"
-  },
-  "/docs/doc3-b20": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-doc-3616-40c"
   },
   "/docs/hk_data_searcher-3a0": {
     "component": "component---theme-doc-item-178-a40",
@@ -193,6 +185,10 @@
   "/docs/tappy_tryout-345": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-tappy-tryout-552-d06"
+  },
+  "/docs/test-fcb": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-doc-136-a-d50"
   },
   "/docs/tradingview_dashboard-9c0": {
     "component": "component---theme-doc-item-178-a40",

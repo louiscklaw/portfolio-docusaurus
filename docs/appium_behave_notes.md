@@ -1,13 +1,21 @@
 ---
-id: appium_behave_notes
-title: appium_behave_notes
+title: Appium and Beheave notes
+
+keywords:
+  - Appium
+  - Beheave
+  - testing
 ---
 
 ![](https://aboutme.louislabs.com/tradingview-screenshot.png)
 
 ### PURPOSE
 
-A simple page to monitor stock, while data provided by trading view
+to test mobile apps of hk observatory environment:
+
+- linux
+- appium
+- python 3.6.1, behave, python-appium-client
 
 ### DEMO
 

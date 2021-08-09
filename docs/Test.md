@@ -1,6 +1,7 @@
 ---
 id: doc1
 title: Style Guide
+slug: /test
 
 hide_title: false
 hide_table_of_contents: false

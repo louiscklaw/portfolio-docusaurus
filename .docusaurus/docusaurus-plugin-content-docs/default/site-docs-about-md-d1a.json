@@ -1,14 +1,14 @@
 {
-  "unversionedId": "ABOUT",
-  "id": "ABOUT",
+  "unversionedId": "!ABOUT",
+  "id": "!ABOUT",
   "isDocsHomePage": false,
   "title": "ABOUT PAGE",
   "description": "LANGUAGES:",
-  "source": "@site/docs/ABOUT.md",
+  "source": "@site/docs/!ABOUT.md",
   "sourceDirName": ".",
   "slug": "/about_louis",
   "permalink": "/docs/about_louis",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/ABOUT.md",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/!ABOUT.md",
   "version": "current",
   "frontMatter": {
     "title": "ABOUT PAGE",

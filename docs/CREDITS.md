@@ -1,6 +1,16 @@
 ---
-title: ABOUT PAGE
+title: CREDITS
 slug: /credits
 ---
 
-ABOUT PAGE PLACEHOLDER
+Thanks to the following tools / frameworks.
+
+### TOOLS:
+
+- preact
+- font-awesome
+
+### OPENSOURCE PROJECTS:
+
+- preact, react
+- fontawesome

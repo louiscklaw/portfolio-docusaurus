@@ -2,8 +2,8 @@
   "unversionedId": "CREDITS",
   "id": "CREDITS",
   "isDocsHomePage": false,
-  "title": "ABOUT PAGE",
-  "description": "ABOUT PAGE PLACEHOLDER",
+  "title": "CREDITS",
+  "description": "Thanks to the following tools / frameworks.",
   "source": "@site/docs/CREDITS.md",
   "sourceDirName": ".",
   "slug": "/credits",
@@ -11,7 +11,7 @@
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/CREDITS.md",
   "version": "current",
   "frontMatter": {
-    "title": "ABOUT PAGE",
+    "title": "CREDITS",
     "slug": "/credits"
   }
 }

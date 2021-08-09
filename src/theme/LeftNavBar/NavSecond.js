@@ -37,7 +37,11 @@ export default function NavSecond() {
             </Link>{" "}
           </Box>
           <Box mt={2}>
-            <Link isNavLink to={"/"} style={{ color: THEME_WHITE }}>
+            <Link
+              isNavLink
+              to={"https://louiscklaw.github.io/travis-playlist/"}
+              style={{ color: THEME_WHITE }}
+            >
               TRAVIS BUILD DASHBOARD
             </Link>
           </Box>

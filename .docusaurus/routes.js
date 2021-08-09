@@ -95,7 +95,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','523'),
+    component: ComponentCreator('/docs','6af'),
     routes: [
       {
         path: '/docs/about_louis',
@@ -118,11 +118,6 @@ export default [
         exact: true
       },
       {
-        path: '/docs/daily_job_search',
-        component: ComponentCreator('/docs/daily_job_search','948'),
-        exact: true
-      },
-      {
         path: '/docs/hk_data_searcher',
         component: ComponentCreator('/docs/hk_data_searcher','3a0'),
         exact: true
@@ -133,15 +128,9 @@ export default [
         exact: true
       },
       {
-        path: '/docs/m5stack_playlist',
-        component: ComponentCreator('/docs/m5stack_playlist','5e9'),
+        path: '/docs/m5stack_tryout',
+        component: ComponentCreator('/docs/m5stack_tryout','579'),
         exact: true
-      },
-      {
-        path: '/docs/mdx',
-        component: ComponentCreator('/docs/mdx','9b3'),
-        exact: true,
-        'sidebar': "someSidebar"
       },
       {
         path: '/docs/my_linux_toolbox',
@@ -185,15 +174,28 @@ export default [
       },
       {
         path: '/docs/test',
-        component: ComponentCreator('/docs/test','fcb'),
-        exact: true,
-        'sidebar': "someSidebar"
+        component: ComponentCreator('/docs/test','d18'),
+        exact: true
       },
       {
         path: '/docs/tradingview_dashboard',
-        component: ComponentCreator('/docs/tradingview_dashboard','9c0'),
-        exact: true,
-        'sidebar': "someSidebar"
+        component: ComponentCreator('/docs/tradingview_dashboard','ee0'),
+        exact: true
+      },
+      {
+        path: '/docs/traefik_tryout',
+        component: ComponentCreator('/docs/traefik_tryout','29f'),
+        exact: true
+      },
+      {
+        path: '/docs/voron_tryout',
+        component: ComponentCreator('/docs/voron_tryout','f48'),
+        exact: true
+      },
+      {
+        path: '/docs/youtube_split_view_tryout',
+        component: ComponentCreator('/docs/youtube_split_view_tryout','339'),
+        exact: true
       }
     ]
   },

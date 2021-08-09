@@ -14,7 +14,7 @@
           "sidebarFilePath": "/home/logic/_workspace/portfolio-docusaurus/sidebars.js",
           "contentPath": "/home/logic/_workspace/portfolio-docusaurus/docs",
           "contentPathLocalized": "/home/logic/_workspace/portfolio-docusaurus/i18n/en/docusaurus-plugin-content-docs/current",
-          "mainDocId": "doc1",
+          "mainDocId": "ABOUT",
           "sidebars": {
             "someSidebar": [
               {
@@ -22,28 +22,14 @@
                 "collapsed": true,
                 "collapsible": true,
                 "label": "Docusaurus",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "doc1"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tradingview_dashboard"
-                  }
-                ]
+                "items": []
               },
               {
                 "type": "category",
                 "collapsed": true,
                 "collapsible": true,
                 "label": "Features",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "mdx"
-                  }
-                ]
+                "items": []
               }
             ]
           },
@@ -136,23 +122,6 @@
               }
             },
             {
-              "unversionedId": "daily_job_search",
-              "id": "daily_job_search",
-              "isDocsHomePage": false,
-              "title": "daily_job_search",
-              "description": "PURPOSE",
-              "source": "@site/docs/daily_job_search.md",
-              "sourceDirName": ".",
-              "slug": "/daily_job_search",
-              "permalink": "/docs/daily_job_search",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/daily_job_search.md",
-              "version": "current",
-              "frontMatter": {
-                "id": "daily_job_search",
-                "title": "daily_job_search"
-              }
-            },
-            {
               "unversionedId": "doc1",
               "id": "doc1",
               "isDocsHomePage": false,
@@ -182,11 +151,6 @@
                   "v3s"
                 ],
                 "image": "https://i.imgur.com/mErPwqL.png"
-              },
-              "sidebar": "someSidebar",
-              "next": {
-                "title": "tradingview_dashboard",
-                "permalink": "/docs/tradingview_dashboard"
               }
             },
             {
@@ -223,42 +187,19 @@
               }
             },
             {
-              "unversionedId": "m5stack_playlist",
-              "id": "m5stack_playlist",
+              "unversionedId": "m5stack_tryout",
+              "id": "m5stack_tryout",
               "isDocsHomePage": false,
               "title": "m5stack_playlist",
               "description": "PURPOSE",
-              "source": "@site/docs/m5stack_playlist.md",
+              "source": "@site/docs/m5stack_tryout.md",
               "sourceDirName": ".",
-              "slug": "/m5stack_playlist",
-              "permalink": "/docs/m5stack_playlist",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/m5stack_playlist.md",
+              "slug": "/m5stack_tryout",
+              "permalink": "/docs/m5stack_tryout",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/m5stack_tryout.md",
               "version": "current",
               "frontMatter": {
-                "id": "m5stack_playlist",
                 "title": "m5stack_playlist"
-              }
-            },
-            {
-              "unversionedId": "mdx",
-              "id": "mdx",
-              "isDocsHomePage": false,
-              "title": "Powered by MDX",
-              "description": "You can write JSX and use React components within your Markdown thanks to MDX.",
-              "source": "@site/docs/interactiveDoc.mdx",
-              "sourceDirName": ".",
-              "slug": "/mdx",
-              "permalink": "/docs/mdx",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/interactiveDoc.mdx",
-              "version": "current",
-              "frontMatter": {
-                "id": "mdx",
-                "title": "Powered by MDX"
-              },
-              "sidebar": "someSidebar",
-              "previous": {
-                "title": "tradingview_dashboard",
-                "permalink": "/docs/tradingview_dashboard"
               }
             },
             {
@@ -274,7 +215,6 @@
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/my_linux_toolbox.md",
               "version": "current",
               "frontMatter": {
-                "id": "my_linux_toolbox",
                 "title": "my_linux_toolbox"
               }
             },
@@ -365,7 +305,7 @@
               "id": "slic3r_tryout",
               "isDocsHomePage": false,
               "title": "slic3r_tryout",
-              "description": "PURPOSE",
+              "description": "WHAT IS IT ?:",
               "source": "@site/docs/slic3r_tryout.md",
               "sourceDirName": ".",
               "slug": "/slic3r_tryout",
@@ -390,7 +330,6 @@
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tappy_tryout.md",
               "version": "current",
               "frontMatter": {
-                "id": "tappy_tryout",
                 "title": "tappy_tryout"
               }
             },
@@ -408,15 +347,54 @@
               "version": "current",
               "frontMatter": {
                 "title": "tradingview_dashboard"
-              },
-              "sidebar": "someSidebar",
-              "previous": {
-                "title": "Markdown features",
-                "permalink": "/docs/test"
-              },
-              "next": {
-                "title": "Powered by MDX",
-                "permalink": "/docs/mdx"
+              }
+            },
+            {
+              "unversionedId": "traefik_tryout",
+              "id": "traefik_tryout",
+              "isDocsHomePage": false,
+              "title": "traefik_tryout",
+              "description": "PURPOSE",
+              "source": "@site/docs/traefik_tryout.md",
+              "sourceDirName": ".",
+              "slug": "/traefik_tryout",
+              "permalink": "/docs/traefik_tryout",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/traefik_tryout.md",
+              "version": "current",
+              "frontMatter": {
+                "title": "traefik_tryout"
+              }
+            },
+            {
+              "unversionedId": "voron_tryout",
+              "id": "voron_tryout",
+              "isDocsHomePage": false,
+              "title": "tradingview_dashboard",
+              "description": "PURPOSE",
+              "source": "@site/docs/voron_tryout.md",
+              "sourceDirName": ".",
+              "slug": "/voron_tryout",
+              "permalink": "/docs/voron_tryout",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/voron_tryout.md",
+              "version": "current",
+              "frontMatter": {
+                "title": "tradingview_dashboard"
+              }
+            },
+            {
+              "unversionedId": "youtube_split_view_tryout",
+              "id": "youtube_split_view_tryout",
+              "isDocsHomePage": false,
+              "title": "youtube_split_view_tryout",
+              "description": "PURPOSE:",
+              "source": "@site/docs/youtube_split_view_tryout.md",
+              "sourceDirName": ".",
+              "slug": "/youtube_split_view_tryout",
+              "permalink": "/docs/youtube_split_view_tryout",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/youtube_split_view_tryout.md",
+              "version": "current",
+              "frontMatter": {
+                "title": "youtube_split_view_tryout"
               }
             }
           ]

@@ -1,9 +1,8 @@
 ---
-id: my_linux_toolbox
 title: my_linux_toolbox
 ---
 
-![](https://aboutme.louislabs.com/tradingview-screenshot.png)
+![](./assets/my_linux_toolbox/thumbnail.png)
 
 ### my linux toolbox
 

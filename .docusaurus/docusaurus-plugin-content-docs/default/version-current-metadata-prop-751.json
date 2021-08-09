@@ -11,31 +11,14 @@
         "collapsed": true,
         "collapsible": true,
         "label": "Docusaurus",
-        "items": [
-          {
-            "type": "link",
-            "label": "Markdown",
-            "href": "/docs/test"
-          },
-          {
-            "type": "link",
-            "label": "tradingview_dashboard",
-            "href": "/docs/tradingview_dashboard"
-          }
-        ]
+        "items": []
       },
       {
         "type": "category",
         "collapsed": true,
         "collapsible": true,
         "label": "Features",
-        "items": [
-          {
-            "type": "link",
-            "label": "Powered by MDX",
-            "href": "/docs/mdx"
-          }
-        ]
+        "items": []
       }
     ]
   }

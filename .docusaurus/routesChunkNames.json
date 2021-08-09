@@ -114,7 +114,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-523": {
+  "/docs-6af": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -134,10 +134,6 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-credits-139-8e0"
   },
-  "/docs/daily_job_search-948": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-daily-job-search-40-c-2a7"
-  },
   "/docs/hk_data_searcher-3a0": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-hk-data-searcher-262-d31"
@@ -146,13 +142,9 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-hko-weather-bot-1-fd-52b"
   },
-  "/docs/m5stack_playlist-5e9": {
+  "/docs/m5stack_tryout-579": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-m-5-stack-playlist-829-0c1"
-  },
-  "/docs/mdx-9b3": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-mdxa-6-f-928"
+    "content": "content---docs-m-5-stack-tryoutd-13-c8e"
   },
   "/docs/my_linux_toolbox-931": {
     "component": "component---theme-doc-item-178-a40",
@@ -186,12 +178,24 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-tappy-tryout-552-d06"
   },
-  "/docs/test-fcb": {
+  "/docs/test-d18": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-doc-136-a-d50"
+    "content": "content---docs-test-36-a-f25"
   },
-  "/docs/tradingview_dashboard-9c0": {
+  "/docs/tradingview_dashboard-ee0": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-tradingview-dashboard-33-d-eff"
+  },
+  "/docs/traefik_tryout-29f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-traefik-tryout-177-950"
+  },
+  "/docs/voron_tryout-f48": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-voron-tryout-612-989"
+  },
+  "/docs/youtube_split_view_tryout-339": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-youtube-split-view-tryout-4-aa-bfd"
   }
 }

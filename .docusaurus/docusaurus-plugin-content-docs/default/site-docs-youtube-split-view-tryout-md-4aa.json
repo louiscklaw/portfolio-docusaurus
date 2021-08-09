@@ -1,0 +1,16 @@
+{
+  "unversionedId": "youtube_split_view_tryout",
+  "id": "youtube_split_view_tryout",
+  "isDocsHomePage": false,
+  "title": "youtube_split_view_tryout",
+  "description": "PURPOSE:",
+  "source": "@site/docs/youtube_split_view_tryout.md",
+  "sourceDirName": ".",
+  "slug": "/youtube_split_view_tryout",
+  "permalink": "/docs/youtube_split_view_tryout",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/youtube_split_view_tryout.md",
+  "version": "current",
+  "frontMatter": {
+    "title": "youtube_split_view_tryout"
+  }
+}

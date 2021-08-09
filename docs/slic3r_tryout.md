@@ -3,16 +3,29 @@ id: slic3r_tryout
 title: slic3r_tryout
 ---
 
-![](https://aboutme.louislabs.com/tradingview-screenshot.png)
+![](./assets/slic3r_tryout/thumbnail.png)
 
-### PURPOSE
+### WHAT IS IT ?:
 
-A simple page to monitor stock, while data provided by trading view
+An easy tool to export gcode from slic3r.
 
-### DEMO
+### BACKGROUND:
 
-https://louiscklaw.github.io/tradingview-tile-tryout
+The option of slic3r command linx options wasn’t availabe under linux as described. The tools written to help perorming export 3mf -> save to stl -> export gcode as a batch operation.
 
-### REFERENCES / REPOSITORIES
+### HOW TO USE:
 
-louiscklaw/tradingview-tile-tryout
+- Clone repo:
+- run under linux
+- `git clone git@github.com:louiscklaw/slic3r_batch_export.git`
+- pip install libxdo
+- update the file list in:
+- file_3mf_list # for the list of 3mf files
+- WORKSPACE_DIR and PROJ_HOME
+- SLIC3R_ACTIVE_CONFIG for slic3r configuration wanted
+- SLIC3R_BIN_PATH for slic3r binary
+- python batch_slic3r.py
+
+### REFERENCES / REPOSITORIES:
+
+- https://www.github.com/louiscklaw/slic3r_batch_export

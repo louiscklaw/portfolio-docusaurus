@@ -1,0 +1,16 @@
+{
+  "unversionedId": "voron_tryout",
+  "id": "voron_tryout",
+  "isDocsHomePage": false,
+  "title": "tradingview_dashboard",
+  "description": "PURPOSE",
+  "source": "@site/docs/voron_tryout.md",
+  "sourceDirName": ".",
+  "slug": "/voron_tryout",
+  "permalink": "/docs/voron_tryout",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/voron_tryout.md",
+  "version": "current",
+  "frontMatter": {
+    "title": "tradingview_dashboard"
+  }
+}

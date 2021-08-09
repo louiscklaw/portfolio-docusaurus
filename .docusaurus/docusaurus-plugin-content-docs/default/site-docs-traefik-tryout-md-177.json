@@ -1,0 +1,16 @@
+{
+  "unversionedId": "traefik_tryout",
+  "id": "traefik_tryout",
+  "isDocsHomePage": false,
+  "title": "traefik_tryout",
+  "description": "PURPOSE",
+  "source": "@site/docs/traefik_tryout.md",
+  "sourceDirName": ".",
+  "slug": "/traefik_tryout",
+  "permalink": "/docs/traefik_tryout",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/traefik_tryout.md",
+  "version": "current",
+  "frontMatter": {
+    "title": "traefik_tryout"
+  }
+}

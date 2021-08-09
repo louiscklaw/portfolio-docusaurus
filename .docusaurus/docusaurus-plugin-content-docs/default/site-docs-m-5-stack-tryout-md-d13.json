@@ -1,0 +1,16 @@
+{
+  "unversionedId": "m5stack_tryout",
+  "id": "m5stack_tryout",
+  "isDocsHomePage": false,
+  "title": "m5stack_playlist",
+  "description": "PURPOSE",
+  "source": "@site/docs/m5stack_tryout.md",
+  "sourceDirName": ".",
+  "slug": "/m5stack_tryout",
+  "permalink": "/docs/m5stack_tryout",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/m5stack_tryout.md",
+  "version": "current",
+  "frontMatter": {
+    "title": "m5stack_playlist"
+  }
+}

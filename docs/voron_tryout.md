@@ -1,9 +1,8 @@
 ---
-id: m5stack_playlist
-title: m5stack_playlist
+title: tradingview_dashboard
 ---
 
-![](https://aboutme.louislabs.com/tradingview-screenshot.png)
+![](./assets/voron_tryout/thumbnail.png)
 
 ### PURPOSE
 
@@ -15,4 +14,4 @@ https://louiscklaw.github.io/tradingview-tile-tryout
 
 ### REFERENCES / REPOSITORIES
 
-louiscklaw/tradingview-tile-tryout
+https://www.github.com/louiscklaw/tradingview-tile-tryout

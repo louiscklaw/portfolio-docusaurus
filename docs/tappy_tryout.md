@@ -1,18 +1,13 @@
 ---
-id: tappy_tryout
 title: tappy_tryout
 ---
 
-![](https://aboutme.louislabs.com/tradingview-screenshot.png)
+![](./assets/tappy_tryout/thumbnail.png)
 
 ### PURPOSE
 
-A simple page to monitor stock, while data provided by trading view
-
-### DEMO
-
-https://louiscklaw.github.io/tradingview-tile-tryout
+try to make a sample of non-intrusive mobile application testing.
 
 ### REFERENCES / REPOSITORIES
 
-louiscklaw/tradingview-tile-tryout
+tapsterbot

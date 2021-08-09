@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "doc1",
+          "mainDocId": "ABOUT",
           "docs": [
             {
               "id": "ABOUT",
@@ -27,13 +27,8 @@
               "path": "/docs/credits"
             },
             {
-              "id": "daily_job_search",
-              "path": "/docs/daily_job_search"
-            },
-            {
               "id": "doc1",
-              "path": "/docs/test",
-              "sidebar": "someSidebar"
+              "path": "/docs/test"
             },
             {
               "id": "hk_data_searcher",
@@ -44,13 +39,8 @@
               "path": "/docs/hko_weather_bot"
             },
             {
-              "id": "m5stack_playlist",
-              "path": "/docs/m5stack_playlist"
-            },
-            {
-              "id": "mdx",
-              "path": "/docs/mdx",
-              "sidebar": "someSidebar"
+              "id": "m5stack_tryout",
+              "path": "/docs/m5stack_tryout"
             },
             {
               "id": "my_linux_toolbox",
@@ -86,8 +76,19 @@
             },
             {
               "id": "tradingview_dashboard",
-              "path": "/docs/tradingview_dashboard",
-              "sidebar": "someSidebar"
+              "path": "/docs/tradingview_dashboard"
+            },
+            {
+              "id": "traefik_tryout",
+              "path": "/docs/traefik_tryout"
+            },
+            {
+              "id": "voron_tryout",
+              "path": "/docs/voron_tryout"
+            },
+            {
+              "id": "youtube_split_view_tryout",
+              "path": "/docs/youtube_split_view_tryout"
             }
           ]
         }

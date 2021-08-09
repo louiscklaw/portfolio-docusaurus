@@ -1,20 +1,18 @@
 {
-  "unversionedId": "doc1",
-  "id": "doc1",
+  "unversionedId": "assets/traefik_tryout",
+  "id": "assets/traefik_tryout",
   "isDocsHomePage": false,
-  "title": "Style Guide",
+  "title": "Allwinner v3s tryout",
   "description": "How do I find you when I cannot solve this problem",
-  "source": "@site/docs/Test.md",
-  "sourceDirName": ".",
-  "slug": "/test",
-  "permalink": "/docs/test",
+  "source": "@site/docs/assets/traefik_tryout.md",
+  "sourceDirName": "assets",
+  "slug": "/assets/traefik_tryout",
+  "permalink": "/docs/assets/traefik_tryout",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/docs/api-doc-markdown.md",
   "version": "current",
   "sidebarPosition": 3,
   "frontMatter": {
-    "id": "doc1",
-    "title": "Style Guide",
-    "slug": "/test",
+    "title": "Allwinner v3s tryout",
     "hide_title": false,
     "hide_table_of_contents": false,
     "sidebar_label": "Markdown",
@@ -27,6 +25,7 @@
       "allwinner",
       "v3s"
     ],
-    "image": "https://i.imgur.com/mErPwqL.png"
+    "image": "https://i.imgur.com/mErPwqL.png",
+    "last_update": "2019-Sep-12"
   }
 }

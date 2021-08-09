@@ -157,11 +157,11 @@
               "isDocsHomePage": false,
               "title": "Style Guide",
               "description": "You can write content using GitHub-flavored Markdown syntax.",
-              "source": "@site/docs/doc1.md",
+              "source": "@site/docs/Test.md",
               "sourceDirName": ".",
               "slug": "/",
               "permalink": "/docs/",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc1.md",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Test.md",
               "version": "current",
               "frontMatter": {
                 "id": "doc1",

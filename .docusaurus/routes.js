@@ -95,11 +95,11 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','73c'),
+    component: ComponentCreator('/docs','9c9'),
     routes: [
       {
         path: '/docs/',
-        component: ComponentCreator('/docs/','6b2'),
+        component: ComponentCreator('/docs/','724'),
         exact: true,
         'sidebar': "someSidebar"
       },

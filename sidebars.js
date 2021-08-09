@@ -9,7 +9,7 @@
 
 module.exports = {
   someSidebar: {
-    Docusaurus: ["doc1", "tradingview_dashboard", "doc3"],
+    Docusaurus: ["doc1", "tradingview_dashboard"],
     Features: ["mdx"],
   },
 };

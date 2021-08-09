@@ -1,8 +1,19 @@
 ---
 id: doc1
 title: Style Guide
-sidebar_label: Style Guide
-slug: /
+
+hide_title: false
+hide_table_of_contents: false
+sidebar_label: Markdown
+sidebar_position: 3
+pagination_label: Markdown features
+custom_edit_url: https://github.com/facebook/docusaurus/edit/master/docs/api-doc-markdown.md
+description: How do I find you when I cannot solve this problem
+keywords:
+  - embedded linux
+  - allwinner
+  - v3s
+image: https://i.imgur.com/mErPwqL.png
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).

@@ -8,7 +8,7 @@ import styles from "./styles.module.css";
 
 import Grid from "@material-ui/core/Grid";
 
-import { index_thumbnails } from "./index_thumbnails";
+import { index_thumbnails } from "../theme/index_thumbnails";
 
 const THEME_BACKGROUND_COLOR = "#555555";
 
@@ -40,9 +40,9 @@ export default function Home() {
                   <div
                     style={{
                       height: "100%",
-                      backgroundImage: `url("${index_thumbnails[doc.id]}")`,
                       backgroundSize: "cover",
                       backgroundPosition: "center",
+                      backgroundImage: `url(${index_thumbnails[doc.id]})`,
                     }}
                   >
                     <Link isNavLink to={doc.path}>

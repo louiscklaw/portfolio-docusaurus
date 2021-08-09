@@ -23,7 +23,7 @@ export default function ProjectPageHead({ title }) {
           }}
         >
           <Box style={{ display: "flex", justifyContent: "center" }}>
-            <BackToCatalogue />
+            <BackToCatalogue to={"/"} />
           </Box>
         </Grid>
         <Grid item xs={6} style={{ textAlign: "center" }}>
@@ -52,7 +52,6 @@ export default function ProjectPageHead({ title }) {
             display: "flex",
             flexFlow: "column",
             justifyContent: "center",
-            backgroundColor: "red",
           }}
         >
           <ProjectUpdateLabel>2021-08-09</ProjectUpdateLabel>

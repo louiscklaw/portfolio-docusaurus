@@ -9,6 +9,9 @@ import Link from "@docusaurus/Link";
 import CodeBlock from "@theme/CodeBlock";
 import Heading from "@theme/Heading";
 import Details from "@theme/Details";
+import { Typography } from "@material-ui/core";
+
+import { ELE_SHADOW } from "../../theme/styles/colors";
 
 // https://mdxjs.com/table-of-components
 
@@ -58,5 +61,16 @@ const MDXComponents = {
   h4: Heading("h4"),
   h5: Heading("h5"),
   h6: Heading("h6"),
+  img: (props) => (
+    <div style={{ textAlign: "center" }}>
+      <img
+        {...props}
+        style={{
+          borderRadius: "0.5rem",
+          ...ELE_SHADOW,
+        }}
+      />
+    </div>
+  ),
 };
 export default MDXComponents;

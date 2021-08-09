@@ -9,10 +9,6 @@
   max-width: 33vw;
 }
 
-p {
-  background-color: red;
-}
-
 .docItemContainer article *:first-child,
 .docItemContainer header + * {
   margin-top: 0;

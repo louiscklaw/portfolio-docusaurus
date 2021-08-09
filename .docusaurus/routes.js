@@ -89,18 +89,13 @@ export default [
     exact: true
   },
   {
-    path: '/index_thumbnails',
-    component: ComponentCreator('/index_thumbnails','481'),
-    exact: true
-  },
-  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page','be1'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','4b2'),
+    component: ComponentCreator('/docs','73c'),
     routes: [
       {
         path: '/docs/',
@@ -111,6 +106,11 @@ export default [
       {
         path: '/docs/about_louis',
         component: ComponentCreator('/docs/about_louis','fd6'),
+        exact: true
+      },
+      {
+        path: '/docs/allwinner_v3s_tryout',
+        component: ComponentCreator('/docs/allwinner_v3s_tryout','8a9'),
         exact: true
       },
       {
@@ -158,11 +158,6 @@ export default [
       {
         path: '/docs/my_linux_toolbox',
         component: ComponentCreator('/docs/my_linux_toolbox','931'),
-        exact: true
-      },
-      {
-        path: '/docs/myDoc',
-        component: ComponentCreator('/docs/myDoc','143'),
         exact: true
       },
       {

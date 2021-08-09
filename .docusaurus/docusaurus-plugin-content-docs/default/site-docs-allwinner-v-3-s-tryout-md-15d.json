@@ -2,18 +2,18 @@
   "unversionedId": "allwinner_v3s_tryout",
   "id": "allwinner_v3s_tryout",
   "isDocsHomePage": false,
-  "title": "Docs Markdown Features",
+  "title": "Allwinner v3s tryout",
   "description": "How do I find you when I cannot solve this problem",
   "source": "@site/docs/allwinner_v3s_tryout.md",
   "sourceDirName": ".",
-  "slug": "/myDoc",
-  "permalink": "/docs/myDoc",
+  "slug": "/allwinner_v3s_tryout",
+  "permalink": "/docs/allwinner_v3s_tryout",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/docs/api-doc-markdown.md",
   "version": "current",
   "sidebarPosition": 3,
   "frontMatter": {
-    "title": "Docs Markdown Features",
-    "slug": "/myDoc",
+    "title": "Allwinner v3s tryout",
+    "slug": "/allwinner_v3s_tryout",
     "hide_title": false,
     "hide_table_of_contents": false,
     "sidebar_label": "Markdown",
@@ -22,9 +22,9 @@
     "custom_edit_url": "https://github.com/facebook/docusaurus/edit/master/docs/api-doc-markdown.md",
     "description": "How do I find you when I cannot solve this problem",
     "keywords": [
-      "docs",
-      "docusaurus",
-      "hello_keywords"
+      "embedded linux",
+      "allwinner",
+      "v3s"
     ],
     "image": "https://i.imgur.com/mErPwqL.png"
   }

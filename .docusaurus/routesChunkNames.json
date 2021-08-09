@@ -110,15 +110,11 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-welcome-286-e55"
   },
-  "/index_thumbnails-481": {
-    "component": "component---site-src-pages-index-thumbnails-js-086-f2c",
-    "config": "config---5-e-9-4f3"
-  },
   "/markdown-page-be1": {
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-4b2": {
+  "/docs-73c": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -129,6 +125,10 @@
   "/docs/about_louis-fd6": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-about-louis-1-eb-23c"
+  },
+  "/docs/allwinner_v3s_tryout-8a9": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-allwinner-v-3-s-tryout-15-d-825"
   },
   "/docs/appium_behave_notes-a7c": {
     "component": "component---theme-doc-item-178-a40",
@@ -165,10 +165,6 @@
   "/docs/my_linux_toolbox-931": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-my-linux-toolboxb-58-7e5"
-  },
-  "/docs/myDoc-143": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-my-doc-15-d-b63"
   },
   "/docs/opencv_car_counting_tryout-cd7": {
     "component": "component---theme-doc-item-178-a40",

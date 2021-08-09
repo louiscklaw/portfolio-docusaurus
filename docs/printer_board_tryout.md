@@ -1,18 +1,9 @@
 ---
-id: printer_board_tryout
 title: printer_board_tryout
 ---
 
-![](https://aboutme.louislabs.com/tradingview-screenshot.png)
-
-### PURPOSE
-
-A simple page to monitor stock, while data provided by trading view
-
-### DEMO
-
-https://louiscklaw.github.io/tradingview-tile-tryout
+![](./assets/printer_board_tryout/thumbnail.png)
 
 ### REFERENCES / REPOSITORIES
 
-louiscklaw/tradingview-tile-tryout
+https://www.github.com/louiscklaw/car_tracking_tryout

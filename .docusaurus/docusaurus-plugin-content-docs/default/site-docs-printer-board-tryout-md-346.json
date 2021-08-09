@@ -3,7 +3,7 @@
   "id": "printer_board_tryout",
   "isDocsHomePage": false,
   "title": "printer_board_tryout",
-  "description": "PURPOSE",
+  "description": "REFERENCES / REPOSITORIES",
   "source": "@site/docs/printer_board_tryout.md",
   "sourceDirName": ".",
   "slug": "/printer_board_tryout",
@@ -11,7 +11,6 @@
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/printer_board_tryout.md",
   "version": "current",
   "frontMatter": {
-    "id": "printer_board_tryout",
     "title": "printer_board_tryout"
   }
 }

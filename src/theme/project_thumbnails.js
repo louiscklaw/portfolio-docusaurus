@@ -9,8 +9,8 @@ import my_linux_toolbox_thumbnail from "../../docs/assets/my_linux_toolbox/thumb
 import opencv_car_counting_tryout_thumbnail from "../../docs/assets/opencv_car_counting_tryout/thumbnail.png";
 import pet_projects_thumbnail from "../../docs/assets/pet_projects/thumbnail.png";
 import portfolio_tryout_thumbnail from "../../docs/assets/portfolio_tryout/portfolio_thumbnail.png";
-import printer_board_tryout_thumbnail from "../../docs/assets/printer_board_tryout/thumbnail.jpg";
-import rthk31_rthk32_linux_viewer_thumbnail from "../../docs/assets/rthk31_rthk32_linux_viewer/thumbnail.jpg";
+import printer_board_tryout_thumbnail from "../../docs/assets/printer_board_tryout/thumbnail.png";
+import rthk31_rthk32_linux_viewer_thumbnail from "../../docs/assets/rthk31_rthk32_linux_viewer/thumbnail.png";
 import slic3r_tryout_thumbnail from "../../docs/assets/slic3r_tryout/thumbnail.jpg";
 import tappy_tryout_thumbnail from "../../docs/assets/tappy_tryout/thumbnail.jpg";
 
@@ -57,11 +57,11 @@ const project_thumbnails = {
     thumbnail: portfolio_tryout_thumbnail,
   },
   printer_board_tryout: {
-    title: "project_title",
+    title: "My printer board tryout",
     thumbnail: printer_board_tryout_thumbnail,
   },
   rthk31_rthk32_linux_viewer: {
-    title: "project_title",
+    title: "rthk31 rthk32 linux viewer",
     thumbnail: rthk31_rthk32_linux_viewer_thumbnail,
   },
   slic3r_tryout: { title: "project_title", thumbnail: slic3r_tryout_thumbnail },

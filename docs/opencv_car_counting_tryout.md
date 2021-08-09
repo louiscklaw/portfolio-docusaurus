@@ -1,18 +1,19 @@
 ---
-id: opencv_car_counting_tryout
 title: opencv_car_counting_tryout
 ---
 
-![](https://aboutme.louislabs.com/tradingview-screenshot.png)
+![](./assets/opencv_car_counting_tryout/thumbnail.png)
 
 ### PURPOSE
 
-A simple page to monitor stock, while data provided by trading view
+To count the number of cars passing by images only. This project is craeted on top of the another github works work.
 
-### DEMO
+### requirements:
 
-https://louiscklaw.github.io/tradingview-tile-tryout
+- python
+- docker
+- linux
 
 ### REFERENCES / REPOSITORIES
 
-louiscklaw/tradingview-tile-tryout
+- https://www.github.com/louiscklaw/car_tracking_tryout

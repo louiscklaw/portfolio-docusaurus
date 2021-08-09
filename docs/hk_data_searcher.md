@@ -1,18 +1,18 @@
 ---
-id: hk_data_searcher
 title: hk_data_searcher
 ---
 
-![](https://aboutme.louislabs.com/tradingview-screenshot.png)
+![](./assets/hk_data_searcher/thumbnail.png)
 
 ### PURPOSE
 
-A simple page to monitor stock, while data provided by trading view
+This is a simple chatbot that help ask weather of hong kong. screenshot still preparing.
 
 ### DEMO
 
-https://louiscklaw.github.io/tradingview-tile-tryout
+https://hk-data-search-8703a.web.app
 
 ### REFERENCES / REPOSITORIES
 
-louiscklaw/tradingview-tile-tryout
+- https://www.github.com/louiscklaw/hko-weather-slackbot
+- https://www.github.com/slackapi/python-slackclient

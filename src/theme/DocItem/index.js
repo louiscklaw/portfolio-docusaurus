@@ -34,6 +34,7 @@ function DocItem(props) {
     keywords,
     hide_title: hideTitle,
     hide_table_of_contents: hideTableOfContents,
+    last_update,
   } = frontMatter;
   const {
     description,
@@ -97,7 +98,11 @@ function DocItem(props) {
 
                 {/* {shouldAddTitle && <MainHeading>{title}</MainHeading>} */}
                 <Box style={{ padding: "8%" }}>
-                  <ProjectPageHead title={title} keywords={keywords} />
+                  <ProjectPageHead
+                    title={title}
+                    keywords={keywords}
+                    last_update={last_update || ""}
+                  />
                   <Box mt={10}>
                     <Grid container>
                       <Grid item xs></Grid>

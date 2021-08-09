@@ -1,5 +1,4 @@
 ---
-id: tradingview_dashboard
 title: tradingview_dashboard
 ---
 
@@ -15,4 +14,4 @@ https://louiscklaw.github.io/tradingview-tile-tryout
 
 ### REFERENCES / REPOSITORIES
 
-louiscklaw/tradingview-tile-tryout
+https://www.github.com/louiscklaw/tradingview-tile-tryout

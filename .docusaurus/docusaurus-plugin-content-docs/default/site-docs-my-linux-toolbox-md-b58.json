@@ -3,7 +3,7 @@
   "id": "my_linux_toolbox",
   "isDocsHomePage": false,
   "title": "my_linux_toolbox",
-  "description": "PURPOSE",
+  "description": "my linux toolbox",
   "source": "@site/docs/my_linux_toolbox.md",
   "sourceDirName": ".",
   "slug": "/my_linux_toolbox",

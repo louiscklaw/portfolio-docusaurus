@@ -9,7 +9,7 @@ import ProjectTitle from "../ProjectTitle";
 import ProjectUpdateLabel from "../ProjectUpdateLabel";
 import { THEME_ACCENT_COLOR, THEME_WHITE } from "../../theme/styles/colors";
 
-export default function ProjectPageHead({ title, keywords }) {
+export default function ProjectPageHead({ title, keywords, last_update }) {
   return (
     <>
       <Grid container style={{ color: THEME_ACCENT_COLOR }}>
@@ -32,16 +32,17 @@ export default function ProjectPageHead({ title, keywords }) {
               <ProjectTitle>{title}</ProjectTitle>
             </Grid>
             <Grid item xs={12}>
-              {keywords.map((x) => {
-                return (
-                  <Box component="span" m={"0.5rem"}>
-                    <Box component="span">
-                      <FiTag />
-                      {x}
+              {keywords &&
+                keywords.map((x) => {
+                  return (
+                    <Box component="span" m={"0.5rem"}>
+                      <Box component="span">
+                        <FiTag />
+                        {x}
+                      </Box>
                     </Box>
-                  </Box>
-                );
-              })}
+                  );
+                })}
             </Grid>
           </Grid>
         </Grid>
@@ -54,7 +55,13 @@ export default function ProjectPageHead({ title, keywords }) {
             justifyContent: "center",
           }}
         >
-          <ProjectUpdateLabel>2021-08-09</ProjectUpdateLabel>
+          {last_update == "" ? (
+            <></>
+          ) : (
+            <>
+              <ProjectUpdateLabel>{last_update}</ProjectUpdateLabel>
+            </>
+          )}
         </Grid>
       </Grid>
     </>

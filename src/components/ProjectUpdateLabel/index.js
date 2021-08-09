@@ -9,9 +9,13 @@ import { Box } from "@material-ui/core";
 export default function ProjectUpdateLabel({ children }) {
   return (
     <>
-      <Box style={{ display: "flex", justifyContent: "center" }}>
-        <FiCalendar size="1rem" />
-        {translate({ message: "last update" })}:{children}
+      <Box>
+        <Box component="span">
+          <FiCalendar size="1rem" style={{ marginRight: "0.5rem" }} />
+        </Box>
+        <Box component="span">
+          {translate({ message: "last update" })}:{children}
+        </Box>
       </Box>
     </>
   );

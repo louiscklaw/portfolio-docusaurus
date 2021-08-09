@@ -14,6 +14,7 @@ keywords:
   - allwinner
   - v3s
 image: https://i.imgur.com/mErPwqL.png
+last_update: 2019-Sep-12
 ---
 
 ![](./assets/allwinner_v3s_tryout/photo.jpg)

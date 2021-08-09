@@ -1,5 +1,4 @@
 ---
-id: pet_projects
 title: pet_projects
 ---
 

@@ -11,7 +11,6 @@
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tradingview_dashboard.md",
   "version": "current",
   "frontMatter": {
-    "id": "tradingview_dashboard",
     "title": "tradingview_dashboard"
   },
   "sidebar": "someSidebar",

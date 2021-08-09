@@ -1,13 +1,13 @@
 import allwinner_v3s_tryout_thumbnail from "../../docs/assets/allwinner_v3s_tryout/thumbnail.jpg";
-import tradingview_dashboard_thumbnail from "../../docs/assets/tradingview_dashboard/thumbnail.jpg";
+import tradingview_dashboard_thumbnail from "../../docs/assets/tradingview_dashboard/thumbnail.png";
 import appium_behave_notes_thumbnail from "../../docs/assets/appium_behave_notes/thumbnail.jpg";
 import daily_job_search_thumbnail from "../../docs/assets/daily_job_search/thumbnail.jpg";
-import hk_data_searcher_thumbnail from "../../docs/assets/hk_data_searcher/thumbnail.jpg";
-import hko_weather_bot_thumbnail from "../../docs/assets/hko_weather_bot/thumbnail.jpg";
+import hk_data_searcher_thumbnail from "../../docs/assets/hk_data_searcher/thumbnail.png";
+import hko_weather_bot_thumbnail from "../../docs/assets/hko_weather_bot/thumbnail.png";
 import m5stack_playlist_thumbnail from "../../docs/assets/m5stack_playlist/thumbnail.jpg";
 import my_linux_toolbox_thumbnail from "../../docs/assets/my_linux_toolbox/thumbnail.jpg";
-import opencv_car_counting_tryout_thumbnail from "../../docs/assets/opencv_car_counting_tryout/thumbnail.jpg";
-import pet_projects_thumbnail from "../../docs/assets/pet_projects/thumbnail.jpg";
+import opencv_car_counting_tryout_thumbnail from "../../docs/assets/opencv_car_counting_tryout/thumbnail.png";
+import pet_projects_thumbnail from "../../docs/assets/pet_projects/thumbnail.png";
 import portfolio_tryout_thumbnail from "../../docs/assets/portfolio_tryout/thumbnail.jpg";
 import printer_board_tryout_thumbnail from "../../docs/assets/printer_board_tryout/thumbnail.jpg";
 import rthk31_rthk32_linux_viewer_thumbnail from "../../docs/assets/rthk31_rthk32_linux_viewer/thumbnail.jpg";
@@ -20,11 +20,11 @@ const project_thumbnails = {
     thumbnail: allwinner_v3s_tryout_thumbnail,
   },
   tradingview_dashboard: {
-    title: "project_title",
+    title: "Tradingview Dashboard",
     thumbnail: tradingview_dashboard_thumbnail,
   },
   appium_behave_notes: {
-    title: "project_title",
+    title: "appium behave notes",
     thumbnail: appium_behave_notes_thumbnail,
   },
   daily_job_search: {
@@ -32,7 +32,7 @@ const project_thumbnails = {
     thumbnail: daily_job_search_thumbnail,
   },
   hk_data_searcher: {
-    title: "project_title",
+    title: "hk data search board",
     thumbnail: hk_data_searcher_thumbnail,
   },
   hko_weather_bot: {
@@ -48,10 +48,10 @@ const project_thumbnails = {
     thumbnail: my_linux_toolbox_thumbnail,
   },
   opencv_car_counting_tryout: {
-    title: "project_title",
+    title: "opencv car counting tryout",
     thumbnail: opencv_car_counting_tryout_thumbnail,
   },
-  pet_projects: { title: "project_title", thumbnail: pet_projects_thumbnail },
+  pet_projects: { title: "My pet projects", thumbnail: pet_projects_thumbnail },
   portfolio_tryout: {
     title: "project_title",
     thumbnail: portfolio_tryout_thumbnail,

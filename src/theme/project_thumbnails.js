@@ -8,7 +8,7 @@ import m5stack_playlist_thumbnail from "../../docs/assets/m5stack_playlist/thumb
 import my_linux_toolbox_thumbnail from "../../docs/assets/my_linux_toolbox/thumbnail.jpg";
 import opencv_car_counting_tryout_thumbnail from "../../docs/assets/opencv_car_counting_tryout/thumbnail.png";
 import pet_projects_thumbnail from "../../docs/assets/pet_projects/thumbnail.png";
-import portfolio_tryout_thumbnail from "../../docs/assets/portfolio_tryout/thumbnail.jpg";
+import portfolio_tryout_thumbnail from "../../docs/assets/portfolio_tryout/portfolio_thumbnail.png";
 import printer_board_tryout_thumbnail from "../../docs/assets/printer_board_tryout/thumbnail.jpg";
 import rthk31_rthk32_linux_viewer_thumbnail from "../../docs/assets/rthk31_rthk32_linux_viewer/thumbnail.jpg";
 import slic3r_tryout_thumbnail from "../../docs/assets/slic3r_tryout/thumbnail.jpg";
@@ -53,7 +53,7 @@ const project_thumbnails = {
   },
   pet_projects: { title: "My pet projects", thumbnail: pet_projects_thumbnail },
   portfolio_tryout: {
-    title: "project_title",
+    title: "my portfolio tryout",
     thumbnail: portfolio_tryout_thumbnail,
   },
   printer_board_tryout: {

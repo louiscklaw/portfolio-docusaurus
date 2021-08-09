@@ -10,7 +10,7 @@ import CodeBlock from "@theme/CodeBlock";
 import Heading from "@theme/Heading";
 import Details from "@theme/Details";
 
-https://mdxjs.com/table-of-components
+// https://mdxjs.com/table-of-components
 
 const MDXComponents = {
   code: (props) => {

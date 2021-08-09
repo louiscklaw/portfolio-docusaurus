@@ -9,7 +9,7 @@ import ProjectTitle from "../ProjectTitle";
 import ProjectUpdateLabel from "../ProjectUpdateLabel";
 import { THEME_ACCENT_COLOR, THEME_WHITE } from "../../theme/styles/colors";
 
-export default function ProjectPageHead({ title }) {
+export default function ProjectPageHead({ title, keywords }) {
   return (
     <>
       <Grid container style={{ color: THEME_ACCENT_COLOR }}>
@@ -32,13 +32,13 @@ export default function ProjectPageHead({ title }) {
               <ProjectTitle>{title}</ProjectTitle>
             </Grid>
             <Grid item xs={12}>
-              {Array.from(Array(4)).map((x) => {
+              {keywords.map((x) => {
                 return (
-                  <Box component="span">
+                  <Box component="span" m={"0.5rem"}>
                     <Box component="span">
                       <FiTag />
+                      {x}
                     </Box>
-                    <Box component="span">helloworld</Box>
                   </Box>
                 );
               })}

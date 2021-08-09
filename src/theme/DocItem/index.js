@@ -97,7 +97,7 @@ function DocItem(props) {
 
                 {/* {shouldAddTitle && <MainHeading>{title}</MainHeading>} */}
                 <Box style={{ padding: "8%" }}>
-                  <ProjectPageHead title={title} />
+                  <ProjectPageHead title={title} keywords={keywords} />
                   <Box mt={10}>
                     <Grid container>
                       <Grid item xs></Grid>

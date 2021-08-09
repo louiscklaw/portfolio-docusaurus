@@ -51,7 +51,7 @@ export default function Home() {
                   backgroundColor: THEME_BACKGROUND_COLOR,
                 }}
               >
-                <div>xs=2</div>
+                <div></div>
               </Grid>
             ))}
           </Grid>

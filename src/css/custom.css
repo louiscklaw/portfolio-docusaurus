@@ -14,7 +14,7 @@
  */
 
 /* You can override the default Infima variables here. */
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Nunito");
 
 :root {
   --ifm-color-primary: #25c2a0;

@@ -23,6 +23,8 @@ import { THEME_WHITE } from "../styles/colors";
 import Link from "@docusaurus/Link";
 import { FiCalendar, FiTag } from "react-icons/fi";
 
+import ProjectTitle from "../../components/ProjectTitle";
+
 function DocItem(props) {
   const { content: DocContent, versionMetadata } = props;
   const { metadata, frontMatter } = DocContent;
@@ -58,6 +60,7 @@ function DocItem(props) {
     !hideTableOfContents && DocContent.toc && DocContent.toc.length > 0;
   const renderTocDesktop =
     canRenderTOC && (windowSize === "desktop" || windowSize === "ssr");
+
   return (
     <>
       <Seo {...{ title, description, keywords, image }} />
@@ -86,37 +89,31 @@ function DocItem(props) {
 
               <div className="markdown">
                 {/*
-                Title can be declared inside md content or declared through frontmatter and added manually
-                To make both cases consistent, the added title is added under the same div.markdown block
-                See https://github.com/facebook/docusaurus/pull/4882#issuecomment-853021120
-                */}
+          Title can be declared inside md content or declared through frontmatter and added manually
+          To make both cases consistent, the added title is added under the same div.markdown block
+          See https://github.com/facebook/docusaurus/pull/4882#issuecomment-853021120
+          */}
 
                 {/* {shouldAddTitle && <MainHeading>{title}</MainHeading>} */}
                 <Grid container>
                   <Grid item xs={3}>
-                    <Link isNavLink to={"/"}>
+                    <Link isNavLink to="/">
                       Back to catalogue
                     </Link>
                   </Grid>
                   <Grid item xs={6} style={{ textAlign: "center" }}>
                     <Grid container>
                       <Grid item xs={12}>
-                        <Typography
-                          variant="h4"
-                          component="h2"
-                          style={{ textAlign: "center" }}
-                        >
-                          {title}
-                        </Typography>
+                        <ProjectTitle>{title}</ProjectTitle>
                       </Grid>
                       <Grid item xs={12}>
                         {Array.from(Array(4)).map((x) => {
                           return (
-                            <Box component={"span"}>
-                              <Box component={"span"}>
+                            <Box component="span">
+                              <Box component="span">
                                 <FiTag />
                               </Box>
-                              <Box component={"span"}>helloworld</Box>
+                              <Box component="span">helloworld</Box>
                             </Box>
                           );
                         })}
@@ -125,7 +122,7 @@ function DocItem(props) {
                   </Grid>
                   <Grid item xs={3}>
                     <FiCalendar size="1rem" />
-                    {"metadata.update"}
+                    metadata.update
                   </Grid>
                 </Grid>
 

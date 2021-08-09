@@ -54,7 +54,7 @@ function Layout(props) {
                 <LeftNavBar />
               </div>
             </Grid>
-            <Grid item xs={10} style={{}}>
+            <Grid item xs={10}>
               {children}
             </Grid>
           </Grid>

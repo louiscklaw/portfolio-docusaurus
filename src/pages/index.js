@@ -7,8 +7,7 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 
 import Grid from "@material-ui/core/Grid";
-
-import { index_thumbnails } from "../theme/index_thumbnails";
+import ProjectThumbnail from "../components/ProjectThumbnail";
 
 const THEME_BACKGROUND_COLOR = "#555555";
 
@@ -37,18 +36,7 @@ export default function Home() {
               .filter((doc) => !["ABOUT", "CREDITS"].includes(doc.id))
               .map((doc, index) => (
                 <Grid item xs={4} md={3} key={index} style={{ height: "25%" }}>
-                  <div
-                    style={{
-                      height: "100%",
-                      backgroundSize: "cover",
-                      backgroundPosition: "center",
-                      backgroundImage: `url(${index_thumbnails[doc.id]})`,
-                    }}
-                  >
-                    <Link isNavLink to={doc.path}>
-                      {doc.id}
-                    </Link>
-                  </div>
+                  <ProjectThumbnail doc={doc} />
                 </Grid>
               ))}
 

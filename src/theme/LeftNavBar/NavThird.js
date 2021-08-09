@@ -10,6 +10,7 @@ import {
   FiSend,
   FiAtSign,
 } from "react-icons/fi";
+import GithubLink from "../../components/GithubLink";
 
 export default function NavThird() {
   return (
@@ -59,14 +60,16 @@ export default function NavThird() {
           </Grid>{" "}
           <Grid item xs={12} style={{ width: "100%" }}>
             <Box style={{ textAlign: "center" }}>
-              <Link isNavLink to={"/"} style={{ color: THEME_WHITE }}>
-                souce code
-              </Link>
+              <GithubLink
+                to={"https://github.com/louiscklaw/portfolio-docusaurus"}
+              >
+                source code
+              </GithubLink>
             </Box>
           </Grid>
           <Grid item xs={12}>
             <Box style={{ textAlign: "center" }}>
-              <Typography variant="p">
+              <Typography variant="p" style={{ fontSize: "10px" }}>
                 💖 coded by louiscklaw. <br />
                 Built on the solder of
                 <br />

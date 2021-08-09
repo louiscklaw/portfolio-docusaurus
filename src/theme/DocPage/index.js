@@ -20,6 +20,8 @@ import clsx from "clsx";
 import styles from "./styles.module.css";
 import { ThemeClassNames, docVersionSearchTag } from "@docusaurus/theme-common";
 
+import "./customize.module.css";
+
 function DocPageContent({ currentDocRoute, versionMetadata, children }) {
   const { isClient } = useDocusaurusContext();
   const { pluginId, version } = versionMetadata;
@@ -49,72 +51,8 @@ function DocPageContent({ currentDocRoute, versionMetadata, children }) {
       <div className={styles.docPage}>
         <BackToTopButton />
 
-        {false && sidebar && (
-          <aside
-            className={clsx(styles.docSidebarContainer, {
-              [styles.docSidebarContainerHidden]: hiddenSidebarContainer,
-            })}
-            onTransitionEnd={(e) => {
-              if (
-                !e.currentTarget.classList.contains(styles.docSidebarContainer)
-              ) {
-                return;
-              }
-
-              if (hiddenSidebarContainer) {
-                setHiddenSidebar(true);
-              }
-            }}
-          >
-            <DocSidebar
-              key={
-                // Reset sidebar state on sidebar changes
-                // See https://github.com/facebook/docusaurus/issues/3414
-                sidebarName
-              }
-              sidebar={sidebar}
-              path={currentDocRoute.path}
-              onCollapse={toggleSidebar}
-              isHidden={hiddenSidebar}
-            />
-
-            {hiddenSidebar && (
-              <div
-                className={styles.collapsedDocSidebar}
-                title={translate({
-                  id: "theme.docs.sidebar.expandButtonTitle",
-                  message: "Expand sidebar",
-                  description:
-                    "The ARIA label and title attribute for expand button of doc sidebar",
-                })}
-                aria-label={translate({
-                  id: "theme.docs.sidebar.expandButtonAriaLabel",
-                  message: "Expand sidebar",
-                  description:
-                    "The ARIA label and title attribute for expand button of doc sidebar",
-                })}
-                tabIndex={0}
-                role="button"
-                onKeyDown={toggleSidebar}
-                onClick={toggleSidebar}
-              >
-                <IconArrow className={styles.expandSidebarButtonIcon} />
-              </div>
-            )}
-          </aside>
-        )}
         <main>
-          <div
-            className={clsx(
-              "container padding-top--md padding-bottom--lg",
-              styles.docItemWrapper,
-              {
-                [styles.docItemWrapperEnhanced]: hiddenSidebarContainer,
-              }
-            )}
-          >
-            <MDXProvider components={MDXComponents}>{children}</MDXProvider>
-          </div>
+          <MDXProvider components={MDXComponents}>{children}</MDXProvider>
         </main>
       </div>
     </Layout>
@@ -136,14 +74,16 @@ function DocPage(props) {
   }
 
   return (
-    <DocPageContent
-      currentDocRoute={currentDocRoute}
-      versionMetadata={versionMetadata}
-    >
-      {renderRoutes(docRoutes, {
-        versionMetadata,
-      })}
-    </DocPageContent>
+    <>
+      <DocPageContent
+        currentDocRoute={currentDocRoute}
+        versionMetadata={versionMetadata}
+      >
+        {renderRoutes(docRoutes, {
+          versionMetadata,
+        })}
+      </DocPageContent>
+    </>
   );
 }
 

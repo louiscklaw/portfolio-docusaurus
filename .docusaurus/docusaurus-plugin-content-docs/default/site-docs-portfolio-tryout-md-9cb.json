@@ -3,7 +3,7 @@
   "id": "portfolio_tryout",
   "isDocsHomePage": false,
   "title": "portfolio_tryout",
-  "description": "PURPOSE",
+  "description": "This is markdown with JSX: MDX!",
   "source": "@site/docs/portfolio_tryout.md",
   "sourceDirName": ".",
   "slug": "/portfolio_tryout",

@@ -3,6 +3,8 @@ id: portfolio_tryout
 title: portfolio_tryout
 ---
 
+This is **markdown** with <span style={{color: "red"}}>JSX</span>: MDX!
+
 ![](https://aboutme.louislabs.com/tradingview-screenshot.png)
 
 ### PURPOSE

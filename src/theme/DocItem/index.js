@@ -25,8 +25,10 @@ import { FiCalendar, FiTag } from "react-icons/fi";
 
 import ProjectTitle from "../../components/ProjectTitle";
 import ProjectPageHead from "../../components/ProjectPageHead";
+import { ViewPortMeasureContext } from "../ViewPortMeasureContext";
 
 function DocItem(props) {
+  const { xs_up, md_up, xl_up } = React.useContext(ViewPortMeasureContext);
   const { content: DocContent, versionMetadata } = props;
   const { metadata, frontMatter } = DocContent;
   const {
@@ -95,9 +97,13 @@ function DocItem(props) {
                   To make both cases consistent, the added title is added under the same div.markdown block
                   See https://github.com/facebook/docusaurus/pull/4882#issuecomment-853021120
                   */}
-
                 {/* {shouldAddTitle && <MainHeading>{title}</MainHeading>} */}
-                <Box style={{ padding: "8%" }}>
+
+                <Box
+                  style={{
+                    padding: xl_up || md_up ? "8%" : "",
+                  }}
+                >
                   <ProjectPageHead
                     title={title}
                     keywords={keywords}

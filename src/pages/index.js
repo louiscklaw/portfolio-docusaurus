@@ -26,9 +26,7 @@ export default function Home() {
             direction="row"
             justifyContent="left"
             alignItems="left"
-            style={{
-              height: "100vh",
-            }}
+            style={{ height: "100vh" }}
           >
             {context.globalData[
               "docusaurus-plugin-content-docs"

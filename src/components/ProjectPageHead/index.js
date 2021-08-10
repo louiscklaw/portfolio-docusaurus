@@ -9,7 +9,11 @@ import ProjectTitle from "../ProjectTitle";
 import ProjectUpdateLabel from "../ProjectUpdateLabel";
 import { THEME_ACCENT_COLOR, THEME_WHITE } from "../../theme/styles/colors";
 
+import { ViewPortMeasureContext } from "../../theme/ViewPortMeasureContext";
+
 export default function ProjectPageHead({ title, keywords, last_update }) {
+  let { xl_up, md_up } = React.useContext(ViewPortMeasureContext);
+
   return (
     <>
       <Grid container style={{ color: THEME_ACCENT_COLOR }}>
@@ -20,6 +24,7 @@ export default function ProjectPageHead({ title, keywords, last_update }) {
             display: "flex",
             flexFlow: "column",
             justifyContent: "center",
+            color: xl_up || md_up ? THEME_ACCENT_COLOR : THEME_WHITE,
           }}
         >
           <Box style={{ display: "flex", justifyContent: "center" }}>
@@ -53,6 +58,7 @@ export default function ProjectPageHead({ title, keywords, last_update }) {
             display: "flex",
             flexFlow: "column",
             justifyContent: "center",
+            color: xl_up || md_up ? THEME_ACCENT_COLOR : THEME_WHITE,
           }}
         >
           {last_update == "" ? (

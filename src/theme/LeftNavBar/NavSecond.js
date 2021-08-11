@@ -14,7 +14,7 @@ export default function NavSecond() {
           direction="column"
           alignItems="center"
           justify="center"
-          style={{ height: "100%" }}
+          style={{ height: "100%", textAlign: "center" }}
         >
           <Box mt={2}>
             <Link isNavLink to={"/"} style={{ color: THEME_WHITE }}>

@@ -15,7 +15,7 @@ export default function BackToCatalogue({ to, children }) {
         to={to}
         style={{ color: xl_up || md_up ? THEME_ACCENT_COLOR : THEME_WHITE }}
       >
-        {translate({ message: "back to catalogue" })}
+        {translate({ message: "back to list" })}
       </Link>
     </>
   );

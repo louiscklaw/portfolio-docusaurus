@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
-            tests="2">
+            failures="1"
+            tests="1">
 
   <testsuite name="e2e.device_snapshot.desktop_1280_1080"
-    errors="0" failures="0" hostname="" id="" package="device_snapshot" skipped="0"
-    tests="2" time="3.681" timestamp="">
+    errors="0" failures="1" hostname="" id="" package="device_snapshot" skipped="1"
+    tests="1" time="7.817" timestamp="">
   
-    <testcase name="Demo test desktop_1280_1080, 1280, 1080" classname="e2e.device_snapshot.desktop_1280_1080" time="3.024" assertions="5">
+    <testcase name="Demo test desktop_1280_1080, 1280, 1080" classname="e2e.device_snapshot.desktop_1280_1080" time="7.817" assertions="6">
 
     
 
@@ -16,18 +16,25 @@
     
 
     
+
+      <failure message="Visual regression test results for element &lt;body&gt; in 5000ms - expected &#34;true&#34; but got: &#34;/home/logic/_workspace/portfolio-docusaurus/vrt/diff/e2e/device_snapshot/desktop_1280_1080/body.png&#34; (5007ms)">    at Object.Demo test desktop_1280_1080, 1280, 1080 (/home/logic/_workspace/portfolio-docusaurus/tests/e2e/device_snapshot/desktop_1280_1080.js:16:15)
+    at runMicrotasks (&lt;anonymous&gt;)</failure>
 
     
     </testcase>
   
-    <testcase name="Finished" classname="e2e.device_snapshot.desktop_1280_1080" time="0.6570" assertions="0">
-    </testcase>
-  
 
   
 
     
 
+  
+    
+    <testcase
+      name="Finished" classname="e2e.device_snapshot.desktop_1280_1080">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

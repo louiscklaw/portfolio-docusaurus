@@ -24,18 +24,18 @@ export default function MobileLayout(props) {
 
   return (
     <>
-      <Grid
-        container
-        style={{
-          color: "white",
-          backgroundColor: THEME_ACCENT_COLOR,
-          textAlign: "center",
-        }}
-      >
-        <Grid item xs={12}>
-          <Grid container>
-            <Grid item xs={1}></Grid>
-            <Grid item xs container>
+      <Grid container direction={"column"}>
+        <Grid
+          item
+          style={{
+            height: "20vh",
+            color: THEME_WHITE,
+            backgroundColor: THEME_ACCENT_COLOR,
+          }}
+        >
+          <Grid container style={{ textAlign: "center" }}>
+            <Grid item xs></Grid>
+            <Grid item xs={10} container>
               <Grid
                 item
                 container
@@ -113,10 +113,10 @@ export default function MobileLayout(props) {
                 <Grid item xs></Grid>
               </Grid>
             </Grid>
-            <Grid item xs={1}></Grid>
+            <Grid item xs></Grid>
           </Grid>
         </Grid>
-        <Grid item xs={12}>
+        <Grid item style={{ height: "80vh", overflowY: "auto" }}>
           {children}
         </Grid>
       </Grid>

@@ -1,0 +1,76 @@
+{
+  "name": "my-website-facebook",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npx browserslist@latest --update-db && docusaurus build",
+    "ci": "yarn lint && yarn prettier:diff",
+    "clear": "docusaurus clear",
+    "deploy": "docusaurus deploy",
+    "dev_clear": "yarn clear && rm -rf node_modules ",
+    "dev": "yarn --dev && yarn start",
+    "docusaurus": "docusaurus",
+    "gitUpdate": "yarn prettier_file && git pull && git add . && git commit -m\"update portfolio-docusaurus,\" && git push",
+    "http": "serve -s build",
+    "lint_init": "eslint --init",
+    "lint": "eslint --cache \"**/*.js\" && stylelint \"**/*.css\"",
+    "nightwatch": "nightwatch",
+    "prettier:diff": "prettier --config .prettierrc --list-different \"**/*.{js,jsx,ts,tsx,md,mdx}\"",
+    "prettier": "prettier --config .prettierrc --write \"**/*.{js,jsx,ts,tsx,md,mdx}\"",
+    "serve": "docusaurus serve",
+    "start": "docusaurus start",
+    "swizzle": "docusaurus swizzle",
+    "test": "docusaurus --help",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "write-translations": "docusaurus write-translations"
+  },
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-beta.4",
+    "@docusaurus/plugin-pwa": "^2.0.0-beta.4",
+    "@docusaurus/preset-classic": "2.0.0-beta.4",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@material-ui/core": "^5.0.0-beta.2",
+    "@material-ui/icons": "^4.11.2",
+    "@mdx-js/react": "^1.6.21",
+    "@mui/material": "^5.8.1",
+    "@svgr/webpack": "^5.5.0",
+    "chromedriver": "^92.0.1",
+    "clsx": "^1.1.1",
+    "file-loader": "^6.2.0",
+    "geckodriver": "^2.0.1",
+    "nightwatch": "^1.7.8",
+    "nightwatch-vrt": "^0.2.10",
+    "react": "^17.0.1",
+    "react-div-100vh": "^0.7.0",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0",
+    "react-perfect-scrollbar": "^1.5.8",
+    "url-loader": "^4.1.1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.13.10",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-header": "^3.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.1",
+    "stylelint": "^13.2.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

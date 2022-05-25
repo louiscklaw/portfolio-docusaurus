@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="e2e.device_snapshot.iPhone_8_Plus_landscape"
+    errors="0" failures="1" hostname="" id="" package="device_snapshot" skipped="1"
+    tests="1" time="7.324" timestamp="">
+  
+    <testcase name="Demo test iPhone 8 Plus landscape, 736, 414" classname="e2e.device_snapshot.iPhone_8_Plus_landscape" time="7.324" assertions="14">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Visual regression test results for element &lt;body&gt; in 5000ms - expected &#34;true&#34; but got: &#34;/home/logic/_workspace/portfolio-docusaurus/vrt/diff/e2e/device_snapshot/iPhone_8_Plus_landscape/body.png&#34; (5574ms)">    at Object.Demo test iPhone 8 Plus landscape, 736, 414 (/home/logic/_workspace/portfolio-docusaurus/tests/e2e/device_snapshot/iPhone_8_Plus_landscape.js:16:15)
+    at runMicrotasks (&lt;anonymous&gt;)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+    
+    <testcase
+      name="Finished" classname="e2e.device_snapshot.iPhone_8_Plus_landscape">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

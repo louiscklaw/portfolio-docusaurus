@@ -10,7 +10,7 @@ export default function NavSecond() {
     <>
       <Grid item>
         <Stack spacing={2}>
-          <Link isNavLink to="/" style={{ color: palette.primary.contrastText }}>
+          <Link isNavLink to="/projectList" style={{ color: palette.primary.contrastText }}>
             <Typography component="h2">PROJECTS</Typography>
           </Link>
           <Link isNavLink to="/docs/about_louis" style={{ color: palette.primary.contrastText }}>

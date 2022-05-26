@@ -8,23 +8,31 @@ export default function NavSecond() {
 
   return (
     <>
-      <Grid item>
+      <Grid item container justifyContent={"center"} alignItems={"center"}>
         <Stack spacing={2}>
           <Link isNavLink to="/projectList" style={{ color: palette.primary.contrastText }}>
-            <Typography component="h2">PROJECTS</Typography>
+            <Typography component="h2" align="center">
+              PROJECTS
+            </Typography>
           </Link>
           <Link isNavLink to="/docs/about_louis" style={{ color: palette.primary.contrastText }}>
-            <Typography component="h2">ABOUT</Typography>
+            <Typography component="h2" align="center">
+              ABOUT
+            </Typography>
           </Link>
           <Link isNavLink to="/docs/credits" style={{ color: palette.primary.contrastText }}>
-            <Typography component="h2">CREDITS</Typography>
+            <Typography component="h2" align="center">
+              CREDITS
+            </Typography>
           </Link>
           <Link
             isNavLink
             to="https://louiscklaw.github.io/travis-playlist"
             style={{ color: palette.primary.contrastText }}
           >
-            <Typography component="h2">TRAVIS BUILD DASHBOARD</Typography>
+            <Typography component="h2" align="center">
+              TRAVIS BUILD DASHBOARD
+            </Typography>
           </Link>
         </Stack>
       </Grid>

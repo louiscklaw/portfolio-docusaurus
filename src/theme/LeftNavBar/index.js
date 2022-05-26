@@ -30,8 +30,8 @@ export default function LeftNavBar({ children }) {
           <Grid
             container
             spacing={2}
-            justifyContent="space-between"
-            flexDirection="column"
+            justifyContent="space-evenly"
+            flexDirection={{ xs: "row", md: "column" }}
             sx={{ height: { xs: height_100vh / 5, md: height_100vh } }}
           >
             <NavFirst />

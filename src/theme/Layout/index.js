@@ -10,6 +10,7 @@ import { use100vh } from "react-div-100vh";
 import LeftNavBar from "../LeftNavBar";
 
 import MuiTheme from "../../MuiTheme";
+import { ViewPortMeasureProvider } from "./ViewPortMeasureContext";
 
 function PageLayout({ children }) {
   const height_100vh = use100vh();
@@ -48,20 +49,22 @@ export default function Layout(props) {
 
   return (
     <>
-      <ThemeProvider theme={MuiTheme}>
-        <LayoutProviders>
-          <PageMetadata title={title} description={description} />
+      <ViewPortMeasureProvider>
+        <ThemeProvider theme={MuiTheme}>
+          <LayoutProviders>
+            <PageMetadata title={title} description={description} />
 
-          {/* <SkipToContent /> */}
+            {/* <SkipToContent /> */}
 
-          <AnnouncementBar />
-          <Navbar />
+            <AnnouncementBar />
+            <Navbar />
 
-          <ErrorBoundary fallback={ErrorPageContent}>
-            <PageLayout>{children}</PageLayout>
-          </ErrorBoundary>
-        </LayoutProviders>
-      </ThemeProvider>
+            <ErrorBoundary fallback={ErrorPageContent}>
+              <PageLayout>{children}</PageLayout>
+            </ErrorBoundary>
+          </LayoutProviders>
+        </ThemeProvider>
+      </ViewPortMeasureProvider>
     </>
   );
 }

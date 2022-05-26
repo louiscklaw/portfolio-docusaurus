@@ -8,6 +8,7 @@
 import React from "react";
 import clsx from "clsx";
 import DocPaginator from "@theme/DocPaginator";
+import Link from "@docusaurus/Link";
 import DocVersionBanner from "@theme/DocVersionBanner";
 import DocVersionBadge from "@theme/DocVersionBadge";
 import type { Props } from "@theme/DocItem";
@@ -24,6 +25,8 @@ import {
 } from "@docusaurus/theme-common";
 import DocBreadcrumbs from "@theme/DocBreadcrumbs";
 import MDXContent from "@theme/MDXContent";
+
+import { Box, Typography, Button, Grid, Stack } from "@mui/material";
 
 function DocItemMetadata(props: Props): JSX.Element {
   const { content: DocContent } = props;
@@ -58,58 +61,72 @@ function DocItemContent(props: Props): JSX.Element {
   const renderTocDesktop = canRenderTOC && (windowSize === "desktop" || windowSize === "ssr");
 
   return (
-    <div className="row">
-      <div className={clsx("col", !hideTableOfContents && styles.docItemCol)}>
-        <DocVersionBanner />
-        <div className={styles.docItemContainer}>
-          <article>
-            <DocBreadcrumbs />
-            <DocVersionBadge />
+    <>
+      <div className="row">
+        <div className={clsx("col", !hideTableOfContents && styles.docItemCol)}>
+          <DocVersionBanner />
+          <div className={styles.docItemContainer}>
+            <article>
+              <DocBreadcrumbs />
+              <DocVersionBadge />
 
-            {canRenderTOC && (
-              <TOCCollapsible
-                toc={DocContent.toc}
-                minHeadingLevel={tocMinHeadingLevel}
-                maxHeadingLevel={tocMaxHeadingLevel}
-                className={clsx(ThemeClassNames.docs.docTocMobile, styles.tocMobile)}
-              />
-            )}
-
-            <div className={clsx(ThemeClassNames.docs.docMarkdown, "markdown")}>
-              {/*
-            Title can be declared inside md content or declared through
-            front matter and added manually. To make both cases consistent,
-            the added title is added under the same div.markdown block
-            See https://github.com/facebook/docusaurus/pull/4882#issuecomment-853021120
-            */}
-              {shouldAddTitle && (
-                <header>
-                  <Heading as="h1">{title}</Heading>
-                </header>
+              {canRenderTOC && (
+                <TOCCollapsible
+                  toc={DocContent.toc}
+                  minHeadingLevel={tocMinHeadingLevel}
+                  maxHeadingLevel={tocMaxHeadingLevel}
+                  className={clsx(ThemeClassNames.docs.docTocMobile, styles.tocMobile)}
+                />
               )}
-              <MDXContent>
-                <DocContent />
-              </MDXContent>
-            </div>
 
-            <DocItemFooter {...props} />
-          </article>
+              <div className={clsx(ThemeClassNames.docs.docMarkdown, "markdown")}>
+                {/*
+      Title can be declared inside md content or declared through
+      front matter and added manually. To make both cases consistent,
+      the added title is added under the same div.markdown block
+      See https://github.com/facebook/docusaurus/pull/4882#issuecomment-853021120
+      */}
+                {shouldAddTitle && (
+                  <header>
+                    <Stack
+                      direction="row"
+                      spacing={2}
+                      justifyContent="space-between"
+                      alignItems="center"
+                      sx={{ width: "100%" }}
+                    >
+                      <Link to="/projectList">Back</Link>
+                      <Typography variant="h5" component="h1">
+                        {title}
+                      </Typography>
+                      <Typography variant="body2">Date: 2021-01-01</Typography>
+                    </Stack>
+                  </header>
+                )}
+                <MDXContent>
+                  <DocContent />
+                </MDXContent>
+              </div>
 
-          <DocPaginator previous={metadata.previous} next={metadata.next} />
+              <DocItemFooter {...props} />
+            </article>
+
+            <DocPaginator previous={metadata.previous} next={metadata.next} />
+          </div>
         </div>
+
+        {renderTocDesktop && (
+          <div className="col col--3">
+            <TOC
+              toc={DocContent.toc}
+              minHeadingLevel={tocMinHeadingLevel}
+              maxHeadingLevel={tocMaxHeadingLevel}
+              className={ThemeClassNames.docs.docTocDesktop}
+            />
+          </div>
+        )}
       </div>
-
-      {renderTocDesktop && (
-        <div className="col col--3">
-          <TOC
-            toc={DocContent.toc}
-            minHeadingLevel={tocMinHeadingLevel}
-            maxHeadingLevel={tocMaxHeadingLevel}
-            className={ThemeClassNames.docs.docTocDesktop}
-          />
-        </div>
-      )}
-    </div>
+    </>
   );
 }
 

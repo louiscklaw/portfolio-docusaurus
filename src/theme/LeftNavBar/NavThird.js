@@ -9,7 +9,14 @@ export default function NavThird() {
 
   return (
     <>
-      <Grid item>
+      <Grid
+        item
+        container
+        flexDirection="column"
+        spacing={2}
+        justifyContent={"center"}
+        alignItems="center"
+      >
         <Grid item>
           <Stack spacing={2} direction="row">
             <Link isNavLink to="/" style={{ color: theme.palette.primary.contrastText }}>

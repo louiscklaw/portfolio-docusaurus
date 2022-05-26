@@ -3,6 +3,8 @@ import { createTheme, ThemeProvider } from "@mui/material";
 import Layout from "@theme/Layout";
 import React from "react";
 
+import MuiTheme from "../MuiTheme";
+
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
 
@@ -21,16 +23,13 @@ function HomepageHeader() {
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
-  const theme = createTheme();
 
   return (
-    <ThemeProvider theme={theme}>
-      <Layout
-        title={`Hello from ${siteConfig.title}`}
-        description="Description will go into a meta tag in <head />"
-      >
-        <HomepageHeader />
-      </Layout>
-    </ThemeProvider>
+    <Layout
+      title={`Hello from ${siteConfig.title}`}
+      description="Description will go into a meta tag in <head />"
+    >
+      <HomepageHeader />
+    </Layout>
   );
 }

@@ -7,6 +7,7 @@ import SkipToContent from "@theme/SkipToContent";
 import AnnouncementBar from "@theme/AnnouncementBar";
 import ErrorBoundary from "@docusaurus/ErrorBoundary";
 import ErrorPageContent from "@theme/ErrorPageContent";
+import Navbar from "@theme/Navbar";
 
 import NavFirst from "../LeftNavBar/NavFirst";
 import NavSecond from "../LeftNavBar/NavSecond";
@@ -32,6 +33,7 @@ export default function Layout(props) {
         {/* <SkipToContent /> */}
 
         <AnnouncementBar />
+        <Navbar />
 
         <ErrorBoundary fallback={ErrorPageContent}>
           <Stack direction={{ xs: "column", md: "row" }} spacing={0}>

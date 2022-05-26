@@ -16,7 +16,7 @@ export default function NavFirst() {
         container
         justifyContent={"center"}
         alignItems={"center"}
-        flexDirection="column"
+        flexDirection={{ xs: "row", md: "column" }}
         spacing={{ xs: 1, md: 2 }}
         sx={{
           width: "100%",

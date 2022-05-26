@@ -21,7 +21,7 @@ export default function DocPageLayoutMain({
   const sidebar = useDocsSidebar();
   return (
     <>
-      <Paper elevation={0} sx={{ width: "100%", padding: "5rem" }}>
+      <Paper elevation={0} sx={{ width: "100%", padding: { xs: "1rem", sm: "3rem", md: "5rem" } }}>
         {children}
       </Paper>
     </>

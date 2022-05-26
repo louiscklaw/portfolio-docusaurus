@@ -17,8 +17,14 @@ export default function NavThird() {
         justifyContent={"center"}
         alignItems="center"
       >
-        <Grid item>
-          <Stack spacing={2} direction="row">
+        <Grid
+          item
+          container
+          justifyContent="center"
+          alignItems="center"
+          sx={{ display: { xs: "none", sm: "block" } }}
+        >
+          <Stack spacing={2} direction="row" justifyContent={"center"}>
             <Link isNavLink to="/" style={{ color: theme.palette.primary.contrastText }}>
               <FiGithub size="1.5rem" />
             </Link>
@@ -36,7 +42,7 @@ export default function NavThird() {
             </Link>
           </Stack>
         </Grid>
-        <Grid item>
+        <Grid item sx={{ display: { xs: "none", md: "block" } }}>
           <Box
             style={{
               height: "1rem",
@@ -49,10 +55,10 @@ export default function NavThird() {
             }}
           />
         </Grid>
-        <Grid item>
+        <Grid item sx={{ display: { xs: "none", md: "block" } }}>
           <Typography component="h3">source code</Typography>
         </Grid>
-        <Grid item>
+        <Grid item sx={{ display: { xs: "none", md: "block" } }}>
           <Typography
             variant="body2"
             style={{ fontSize: "10px" }}
@@ -67,7 +73,7 @@ export default function NavThird() {
             </Link>
           </Typography>
         </Grid>
-        <Grid item>
+        <Grid item sx={{ display: { xs: "none", md: "block" } }}>
           <Typography variant="body2" style={{ color: theme.palette.primary.contrastText }}>
             last update: 2021-Jan-11
           </Typography>

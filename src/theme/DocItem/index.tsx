@@ -5,6 +5,10 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+import "moment-timezone";
+
+import moment from "moment-timezone";
+
 import React from "react";
 import clsx from "clsx";
 import DocPaginator from "@theme/DocPaginator";
@@ -87,19 +91,20 @@ function DocItemContent(props: Props): JSX.Element {
                       spacing={2}
                       justifyContent="space-between"
                       alignItems="center"
-                      sx={{ width: "100%" }}
+                      sx={{ width: "100%", padding: "3rem 2rem" }}
                     >
                       <Link to="/projectList">Back</Link>
-                      <Typography variant="h5" component="h1">
+                      <Typography variant="h4" component="h1">
                         {title}
                       </Typography>
                       <Typography variant="body2">
-                        {moment.utc(dateToFormat).format("D MMM")}
+                        {metadata.frontMatter.date
+                          ? moment.utc(metadata.frontMatter.date).format("D MMM YYYY")
+                          : ""}
                       </Typography>
                     </Stack>
                   </header>
                 )}
-                <pre>{JSON.stringify(metadata, null, 2)}</pre>
 
                 <MDXContent>
                   <DocContent />

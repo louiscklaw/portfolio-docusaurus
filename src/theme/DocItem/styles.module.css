@@ -12,6 +12,10 @@
 
 .docItemContainer article img {
   border-radius: 0.5rem;
+  max-height: 500px;
+  max-width: 500px;
+  height: auto;
+  width: auto;
 }
 
 @media (min-width: 997px) {

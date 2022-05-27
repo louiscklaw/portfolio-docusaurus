@@ -14,7 +14,8 @@
     "write-heading-ids": "docusaurus write-heading-ids",
     "gitUpdate": "git add . && git commit -m'update root,' && git push",
     "dev": "yarn --dev && yarn start",
-    "update_root_docs": "yarn --dev && yarn build && rm -rf ../docs && mkdir -p ../docs && cp -R build/* ../docs",
+    "deploy_gh_pages": "yarn clear && yarn build && gh-pages -d build",
+    "update_root_docs": "yarn --dev && yarn build && rm -rf ../docs",
     "push_docs": "yarn update_root_docs && git add ../docs && git commit -m'update docs,' && git push"
   },
   "dependencies": {
@@ -34,7 +35,8 @@
     "react-icons": "^4.3.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.0.0-beta.20"
+    "@docusaurus/module-type-aliases": "2.0.0-beta.20",
+    "gh-pages": "^4.0.0"
   },
   "browserslist": {
     "production": [

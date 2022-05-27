@@ -88,16 +88,18 @@ function DocItemContent(props: Props): JSX.Element {
                   <header>
                     <Stack
                       direction="row"
-                      spacing={2}
-                      justifyContent="space-between"
+                      spacing={{ xs: 0, sm: 2 }}
+                      justifyContent={{ xs: "center", sm: "space-between" }}
                       alignItems="center"
                       sx={{ width: "100%", padding: "3rem 2rem" }}
                     >
-                      <Link to="/projectList">Back</Link>
-                      <Typography variant="h4" component="h1">
+                      <Box sx={{ display: { xs: "none", sm: "block" } }}>
+                        <Link to="/projectList">Back</Link>
+                      </Box>
+                      <Typography variant="h4" component="h1" align="center">
                         {title}
                       </Typography>
-                      <Typography variant="body2">
+                      <Typography variant="body2" sx={{ display: { xs: "none", sm: "block" } }}>
                         {metadata.frontMatter.date
                           ? moment.utc(metadata.frontMatter.date).format("D MMM YYYY")
                           : ""}
